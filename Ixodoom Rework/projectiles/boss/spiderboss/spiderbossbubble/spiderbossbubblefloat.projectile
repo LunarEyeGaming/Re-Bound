@@ -1,0 +1,120 @@
+{
+  "projectileName" : "spiderbossbubblefloat",
+  "image" : "spiderbossbubble.png:float",
+  "orientationLocked" : true,
+  "physics" : "bigbubble",
+  "animationCycle" : 0.6,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 2,
+  "power" : 100,
+  "speed" : 35,
+  "timeToLive" : 2,
+  "piercing" : false,
+  "damagePoly" : [ [-16, 0], [-12, -12], [0, -16], [12, -12], [16, 0], [12, 12], [0, 16], [-12, 12] ],
+  "damageKind" : "poison",
+  "emitters" : [ "poisondrip" ],
+  "statusEffects" : [
+	"weakpoison"
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "snotbubblepop",
+      "inheritDamageFactor" : 0.40
+    },
+    {
+      "action" : "projectile",
+      "type" : "goocluster",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 0,
+	  "statusEffects" : [
+	  "weakpoison"
+      ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "goocluster",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 0,
+	  "statusEffects" : [
+	  "weakpoison"
+      ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "goocluster",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 0,
+	  "statusEffects" : [
+	  "weakpoison"
+      ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "goocluster",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 0,
+	  "statusEffects" : [
+	  "weakpoison"
+      ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "goocluster",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 0,
+	  "statusEffects" : [
+	  "weakpoison"
+      ]
+    },
+	{
+      "action" : "projectile",
+      "type" : "goocluster",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 0,
+	  "statusEffects" : [
+	  "weakpoison"
+      ]
+    },
+	{
+      "action" : "projectile",
+      "type" : "goocluster",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 0,
+	  "statusEffects" : [
+	  "weakpoison"
+      ]
+    },
+	{
+      "action" : "projectile",
+      "type" : "goocluster",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 0,
+	  "statusEffects" : [
+	  "weakpoison"
+      ]
+    },
+	{
+      "action" : "projectile",
+      "type" : "goocluster",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 0,
+	  "statusEffects" : [
+	  "weakpoison"
+      ]
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/goocluster_pop.ogg" ]
+    }
+  ]
+}

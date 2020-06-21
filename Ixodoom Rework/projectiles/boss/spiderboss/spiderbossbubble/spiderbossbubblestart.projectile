@@ -1,0 +1,29 @@
+{
+  "projectileName" : "spiderbossbubblestart",
+  "image" : "spiderbossbubble.png:start",
+  "orientationLocked" : true,
+  "physics" : "gas",
+  "animationCycle" : 0.4,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 8,
+  "power" : 30,
+  "speed" : 1,
+  "timeToLive" : 0.4,
+  "piercing" : false,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "damageKind" : "poison",
+  "actionOnTimeout" : [
+    {
+      "action" : "projectile",
+      "type" : "spiderbossbubblefloat",
+      "inheritDamageFactor" : 1
+    }
+  ],
+  "actionOnHit" : [
+    {
+      "action" : "projectile",
+      "type" : "spiderbossbubblepop",
+      "inheritDamageFactor" : 0.40
+    }
+  ]
+}

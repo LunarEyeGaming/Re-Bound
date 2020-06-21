@@ -1,0 +1,100 @@
+{
+  "name": "spiderboss-stage3",
+  "description": "",
+  "scripts": [],
+  "parameters": {},
+  "root": {
+    "title": "repeater",
+    "type": "decorator",
+    "name": "repeater",
+    "parameters": {},
+    "child": {
+      "title": "sequence",
+      "type": "composite",
+      "name": "sequence",
+      "parameters": {},
+      "children": [
+	    {
+          "title": "Ixodoom Return",
+          "type": "module",
+          "name": "spiderboss-return",
+          "parameters": {}
+        },
+	    {
+          "title": "Hatch",
+          "type": "module",
+          "name": "spiderboss-enragedhatch",
+          "parameters": {
+            "hatchNumber": {"value": 10}
+          }
+        },
+        {
+          "title": "Slam",
+          "type": "module",
+          "name": "spiderboss-slam",
+          "parameters": {}
+        },
+		{
+          "title": "Slam",
+          "type": "module",
+          "name": "spiderboss-slam",
+          "parameters": {}
+        },
+		{
+          "title": "Slam",
+          "type": "module",
+          "name": "spiderboss-slam",
+          "parameters": {}
+        },
+		{
+          "title": "Slam",
+          "type": "module",
+          "name": "spiderboss-slam",
+          "parameters": {}
+        },
+		{
+          "title": "Slam",
+          "type": "module",
+          "name": "spiderboss-slam",
+          "parameters": {}
+        },
+		{
+          "title": "Slam",
+          "type": "module",
+          "name": "spiderboss-slam",
+          "parameters": {}
+        },
+		{
+          "title": "Slam",
+          "type": "module",
+          "name": "spiderboss-slam",
+          "parameters": {}
+        },
+		{
+          "title": "Slam",
+          "type": "module",
+          "name": "spiderboss-slam",
+          "parameters": {}
+        },
+		{
+          "title": "Slam",
+          "type": "module",
+          "name": "spiderboss-slam",
+          "parameters": {}
+        },
+		{
+          "title": "Slam",
+          "type": "module",
+          "name": "spiderboss-slam",
+          "parameters": {}
+        },
+		{
+          "title": "Slam",
+          "type": "module",
+          "name": "spiderboss-slam",
+          "parameters": {}
+        }
+      ]
+    }
+  }
+}

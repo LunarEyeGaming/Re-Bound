@@ -1,0 +1,31 @@
+{
+  "projectileName" : "goocluster",
+  "image" : "goocluster.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "physics" : "grenade",
+  "pointLight" : false,
+  "timeToLive" : 5,
+  "bounces" : 1,
+  "emitters" : [ "poisonplasmarocket", "poisondrip" ],
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "smallpoisonexplosion",
+      "inheritDamageFactor" : 2.0,
+      "angle" : 5
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/goocluster_pop.ogg" ]
+    }
+  ],
+  "power" : 7.0,
+  "speed" : 25,
+  "statusEffects" : [
+	"weakpoison"
+  ],
+  "damageType" : "NoDamage",
+  "damageKind" : "acid"
+}

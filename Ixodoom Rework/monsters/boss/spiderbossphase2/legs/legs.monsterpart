@@ -1,0 +1,9 @@
+{
+  "name" : "spiderbossphase2_legs",
+  "category" : "spiderbossphase2",
+  "type" : "legs",
+
+  "frames" : {
+    "legs" : "legs.png"
+  }
+}

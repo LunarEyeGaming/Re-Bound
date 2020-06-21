@@ -1,0 +1,54 @@
+{
+  "projectileName" : "acidwave",
+  "physics" : "statuspod",
+  "bounces" : -1,
+  "timeToLive" : 0,
+  "speed" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "acidwave.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "acidsweep",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1.0,
+      "angleAdjust" : 0
+    },
+	{
+      "action" : "projectile",
+      "type" : "acidsweep",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1.0,
+      "angleAdjust" : 10
+    },
+	{
+      "action" : "projectile",
+      "type" : "acidsweep",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1.0,
+      "angleAdjust" : 20
+    },
+	{
+      "action" : "projectile",
+      "type" : "acidsweep",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1.0,
+      "angleAdjust" : -10
+    },
+	{
+      "action" : "projectile",
+      "type" : "acidsweep",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1.0,
+      "angleAdjust" : -20
+    }
+  ],
+  "power" : 20,
+  "piercing" : true,
+  "damageKind" : "default",
+  "damagePoly" : [ [-60, -60], [-60, 60], [60, 60], [60, -60]  ],
+  "flippable" : true,
+  "damageTeam" : { "type" : "enemy" }
+}

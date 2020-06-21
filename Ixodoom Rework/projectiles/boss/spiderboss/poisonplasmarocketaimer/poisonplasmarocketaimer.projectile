@@ -1,0 +1,26 @@
+{
+  "projectileName" : "poisonplasmarocketaimer",
+  "image" : "poisonplasmarocketaimer.png",
+  "animationCycle" : 0.4,
+  "lightColor" : [0, 0, 0],
+  "frameNumber" : 8,
+  "fullbright" : true,
+  "damageKindImage" : "icon.png",
+  "physics" : "default",
+  "emitters" : [ ],
+  "actionOnReap" : [
+  ],
+  "damagePoly" : [],
+  "damageKind" : "hidden",
+
+  "speed" : 0,
+  "timeToLive" : 0.0,
+
+  "explosionAction" : {
+    "action" : "actions",
+    "list" : [
+    ]
+  },
+  "scripts" : [ "poisonplasmarocketaimer.lua" ],
+  "scriptDelta" : 1
+}

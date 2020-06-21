@@ -1,0 +1,16 @@
+{
+  "name" : "spiderbossparalysis",
+  "blockingStat" : "stunImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "spiderbossparalysis.lua"
+  ],
+
+  "animationConfig" : "spiderbossparalysis.animation",
+
+  "label" : "Paralyzed",
+  "icon" : "/interface/statuses/stop.png"
+}

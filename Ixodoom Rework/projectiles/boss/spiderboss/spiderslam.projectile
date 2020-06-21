@@ -1,0 +1,46 @@
+{
+  "projectileName" : "spiderslam",
+  "image" : "spiderslam.png",
+  "animationCycle" : 0.4,
+  "power" : 12,
+  "frameNumber" : 4,
+  "speed" : 0.001,
+  "timeToLive" : 0.4,
+  "orientationLocked" : true,
+  "damagePoly" : [ [-60,-5], [60, -5], [60, 15], [-60, 15] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "statusEffects" : [
+	"spiderbossparalysis"
+  ],
+  "bounces" : -1,
+  "flippable" : false,
+  "damageKind" : "hammer",
+  "knockback" : 200,
+  "actionOnReap" : [
+	{
+	  "action" : "loop",
+	  "count" : 1,
+	  "body" : [
+	    {
+	      "action" : "projectile",
+	      "type" : "spiderbossshockwavespawner",
+	      "direction" : [1, 0],
+		  "offset": [5, 10]
+	    }
+	  ]
+	},
+	{
+	  "action" : "loop",
+	  "count" : 1,
+	  "body" : [
+	    {
+	      "action" : "projectile",
+	      "type" : "spiderbossshockwavespawner",
+	      "direction" : [-1, 0],
+		  "offset": [-5, 10]
+	    }
+	  ]
+	}
+  ]
+}

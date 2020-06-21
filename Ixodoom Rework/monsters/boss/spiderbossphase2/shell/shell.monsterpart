@@ -1,0 +1,9 @@
+{
+  "name" : "spiderbossphase2_shell",
+  "category" : "spiderbossphase2",
+  "type" : "shell",
+
+  "frames" : {
+    "shell" : "shell.png"
+  }
+}
