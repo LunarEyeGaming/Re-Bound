@@ -1,0 +1,13 @@
+{
+  "name" : "largeshellplatehead",
+  "category" : "largebipedminiboss",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "largeshellplatehead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}

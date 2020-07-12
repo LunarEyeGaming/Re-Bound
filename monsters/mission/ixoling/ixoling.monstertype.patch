@@ -1,0 +1,17 @@
+[
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/targetQueryRange",
+    "value": 999
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/keepTargetInRange",
+    "value": 999
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/targetOutOfSightTime",
+    "value": 5
+  }
+]

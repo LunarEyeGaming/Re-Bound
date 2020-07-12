@@ -1,0 +1,9 @@
+{
+  "name" : "largegoldfishhead",
+  "category" : "largefishminiboss",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "largegoldfishhead.png"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name" : "largecrownhead",
+  "category" : "largequadrupedminiboss",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "largecrownhead.png"
+  },
+
+  "parameters" :
+  {
+    "meleeProjectile" : "meleebutt",
+    "projectileSourcePosition" : [1, -0.5]
+  }
+}

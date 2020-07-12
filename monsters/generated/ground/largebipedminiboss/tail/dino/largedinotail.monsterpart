@@ -1,0 +1,9 @@
+{
+  "name" : "largedinotail",
+  "category" : "largebipedminiboss",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "largedinotail.png"
+  }
+}

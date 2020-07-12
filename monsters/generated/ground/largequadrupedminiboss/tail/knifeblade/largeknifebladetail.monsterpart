@@ -1,0 +1,9 @@
+{
+  "name" : "largeknifebladetail",
+  "category" : "largequadrupedminiboss",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "largeknifebladetail.png"
+  }
+}

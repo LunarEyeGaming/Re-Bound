@@ -1,0 +1,13 @@
+{
+  "name" : "largesharpteethhead",
+  "category" : "largebipedminiboss",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "largesharpteethhead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}

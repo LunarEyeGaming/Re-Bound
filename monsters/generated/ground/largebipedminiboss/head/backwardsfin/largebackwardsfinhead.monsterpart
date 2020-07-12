@@ -1,0 +1,13 @@
+{
+  "name" : "largebackwardsfinhead",
+  "category" : "largebipedminiboss",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "largebackwardsfinhead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}

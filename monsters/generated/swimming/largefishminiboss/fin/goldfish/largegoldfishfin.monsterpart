@@ -1,0 +1,10 @@
+{
+  "name" : "largegoldfishfin",
+  "category" : "largefishminiboss",
+  "type" : "fin",
+
+  "frames" : {
+    "backfin" : "largegoldfishbfin.png",
+    "frontfin" : "largegoldfishffin.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "largegorillachest",
+  "category" : "largequadrupedminiboss",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "largegorillachest.png"
+  }
+}

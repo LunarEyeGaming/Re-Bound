@@ -1,0 +1,7 @@
+[
+  // ***RECIPES THAT ARE LEARNED BY DEFAULT***
+
+  // VANILLA CRAFTING STATIONS
+      // Anvil
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "rb-thornbomb"} }
+]

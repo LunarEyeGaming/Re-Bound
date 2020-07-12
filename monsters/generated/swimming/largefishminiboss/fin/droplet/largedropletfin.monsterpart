@@ -1,0 +1,10 @@
+{
+  "name" : "largedropletfin",
+  "category" : "largefishminiboss",
+  "type" : "fin",
+
+  "frames" : {
+    "backfin" : "largedropletbfin.png",
+    "frontfin" : "largedropletffin.png"
+  }
+}

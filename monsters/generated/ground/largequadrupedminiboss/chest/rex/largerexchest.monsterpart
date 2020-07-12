@@ -1,0 +1,9 @@
+{
+  "name" : "largerexchest",
+  "category" : "largequadrupedminiboss",
+  "type" : "chest",
+
+  "frames" : {
+    "chest" : "largerexchest.png"
+  }
+}

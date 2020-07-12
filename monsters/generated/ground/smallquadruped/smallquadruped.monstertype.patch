@@ -1,0 +1,110 @@
+[
+  {
+    "op": "add",
+    "path": "/baseParameters/specialSkills",
+    "value": [
+      "shockingWaveAttack",
+      "staticDischargeAttack",
+      "bubbleBlastAttack",
+      "waterGunAttack",
+      "burninghaloAttack",
+      "gasBelchAttack",
+      "rainbowVomitAttack",
+      "shockingBoltAttack",
+      "plasmaTorpedoAttack",
+      "eyeballSprayAttack",
+      "bloodVomitAttack",
+      "acidicSpitAttack",
+      "fireballAttack",
+      "icerockShotAttack",
+      "doubleBarbSprayAttack",
+      "miniDragonBreathAttack",
+      "acidSprayAttack",
+      "beamBurstAttack",
+      "plasmaSweepAttack",
+      "eyeballShotAttack",
+      "glitterAttack",
+      "darkGravityBallAttack",
+      "fireSwirlAttack",
+      "rockRollAttack",
+      "iceBlastAttack",
+      "snotBubbleAttack",
+      "leafyGustAttack",
+      "mudBallAttack",
+      "lightBallAttack",
+      "shardSprayAttack",
+      "blueFlameAttack",
+      "smokeRingAttack",
+      "putridWaveAttack",
+      "boneRainAttack",
+      "orbOfZotsAttack",
+      "snotShotAttack",
+      "fishBreathAttack",
+      "explosivePhlegmAttack",
+      "cellBlastAttack"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/windupTime",
+    "value": 0.4
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/windupState",
+    "value": "windup"
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/windupStopForce",
+    "value": 100
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/winddownTime",
+    "value": 0.5
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/winddownState",
+    "value": "winddown"
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/fireOffset",
+    "value": [
+      2,
+      0
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/skillCount",
+    "value": 3
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/movementSettings/collisionPoly/0/0",
+    "value": -2.5
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/movementSettings/collisionPoly/0/1",
+    "value": -1.3
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/movementSettings/collisionPoly/1/1",
+    "value": -2
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/movementSettings/collisionPoly/2/1",
+    "value": -2
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/movementSettings/collisionPoly/3/1",
+    "value": -1.3
+  }
+]

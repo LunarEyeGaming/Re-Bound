@@ -1,0 +1,9 @@
+{
+  "name" : "largeaxebladetail",
+  "category" : "largebipedminiboss",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "largeaxebladetail.png"
+  }
+}

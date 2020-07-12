@@ -1,0 +1,9 @@
+{
+  "name" : "largeswirltail",
+  "category" : "largequadrupedminiboss",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "largeswirltail.png"
+  }
+}

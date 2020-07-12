@@ -1,0 +1,31 @@
+[
+  {
+    "op": "remove",
+    "path": "/dropPools/0"
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/touchDamage/knockback",
+    "value": 200
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/touchDamage/damage",
+    "value": 30
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/touchDamage/damageSourceKind",
+    "value": "hammer"
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/touchDamage/statusEffects/-",
+    "value": "spiderbossparalysis"
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/statusSettings/stats/protection/baseValue",
+    "value": 45
+  }
+]

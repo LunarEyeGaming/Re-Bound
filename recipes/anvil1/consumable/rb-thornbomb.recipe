@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "volatilepowder", "count" : 4 },
+    { "item" : "string", "count" : 1 },
+    { "item" : "thornfruit", "count" : 1 }
+  ],
+  "output" : { "item" : "rb-thornbomb", "count" : 1 },
+  "groups" : [ "craftinganvil", "consumables", "all" ]
+}

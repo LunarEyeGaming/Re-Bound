@@ -1,0 +1,13 @@
+{
+  "name" : "largecurlhead",
+  "category" : "largebipedminiboss",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "largecurlhead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}

@@ -1,0 +1,154 @@
+[
+  {
+    "op": "remove",
+    "path": "/animatedParts/stateTypes/body/states/firewindup"
+  },
+  {
+    "op": "remove",
+    "path": "/animatedParts/stateTypes/body/states/firewinddown"
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/stateTypes/body/states/windup",
+    "value": {
+      "frames": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/stateTypes/body/states/winddown",
+    "value": {
+      "frames": 1
+    }
+  },
+  {
+    "op": "remove",
+    "path": "/animatedParts/parts/backLegs/partStates/body/firewindup"
+  },
+  {
+    "op": "remove",
+    "path": "/animatedParts/parts/backLegs/partStates/body/firewinddown"
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/backLegs/partStates/body/windup",
+    "value": {
+      "properties": {
+        "image": "<partImage>:idle.1"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/backLegs/partStates/body/winddown",
+    "value": {
+      "properties": {
+        "image": "<partImage>:idle.1"
+      }
+    }
+  },
+  {
+    "op": "remove",
+    "path": "/animatedParts/parts/chest/partStates/body/firewindup"
+  },
+  {
+    "op": "remove",
+    "path": "/animatedParts/parts/chest/partStates/body/firewinddown"
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/chest/partStates/body/windup",
+    "value": {
+      "properties": {
+        "image": "<partImage>:idle.1"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/chest/partStates/body/winddown",
+    "value": {
+      "properties": {
+        "image": "<partImage>:idle.1"
+      }
+    }
+  },
+  {
+    "op": "remove",
+    "path": "/animatedParts/parts/tail/partStates/body/firewindup"
+  },
+  {
+    "op": "remove",
+    "path": "/animatedParts/parts/tail/partStates/body/firewinddown"
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/tail/partStates/body/windup",
+    "value": {
+      "properties": {
+        "image": "<partImage>:idle.1"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/tail/partStates/body/winddown",
+    "value": {
+      "properties": {
+        "image": "<partImage>:idle.1"
+      }
+    }
+  },
+  {
+    "op": "remove",
+    "path": "/animatedParts/parts/head/partStates/body/firewindup"
+  },
+  {
+    "op": "remove",
+    "path": "/animatedParts/parts/head/partStates/body/firewinddown"
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/head/partStates/body/windup",
+    "value": {
+      "properties": {
+        "image": "<partImage>:idle.1"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/head/partStates/body/winddown",
+    "value": {
+      "properties": {
+        "image": "<partImage>:idle.1"
+      }
+    }
+  },
+  {
+    "op": "remove",
+    "path": "/animatedParts/parts/frontLegs/partStates/body/firewindup"
+  },
+  {
+    "op": "remove",
+    "path": "/animatedParts/parts/frontLegs/partStates/body/firewinddown"
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/frontLegs/partStates/body/windup",
+    "value": {
+      "properties": {
+        "image": "<partImage>:idle.1"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/frontLegs/partStates/body/winddown",
+    "value": {
+      "properties": {
+        "image": "<partImage>:idle.1"
+      }
+    }
+  }
+]

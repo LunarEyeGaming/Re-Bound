@@ -1,0 +1,9 @@
+{
+  "name" : "largesimple2tail",
+  "category" : "largequadrupedminiboss",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "largesimple2tail.png"
+  }
+}

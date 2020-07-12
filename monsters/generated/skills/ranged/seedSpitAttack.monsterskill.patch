@@ -1,0 +1,11 @@
+[
+  {
+    "op": "remove",
+    "path": "/animationParameters/sounds/rangedAttack"
+  },
+  {
+    "op": "add",
+    "path": "/animationParameters/sounds/fire",
+    "value": [ ]
+  }
+]

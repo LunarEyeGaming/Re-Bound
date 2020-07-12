@@ -1,0 +1,90 @@
+[
+  {
+    "op": "add",
+    "path": "/baseParameters/skillCount",
+    "value": 2
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/specialSkills",
+    "value": [
+      "shockingWaveAttack",
+      "staticDischargeAttack",
+      "bubbleBlastAttack",
+      "waterGunAttack",
+      "burninghaloAttack",
+      "gasBelchAttack",
+      "rainbowVomitAttack",
+      "shockingBoltAttack",
+      "plasmaTorpedoAttack",
+      "eyeballSprayAttack",
+      "bloodVomitAttack",
+      "acidicSpitAttack",
+      "fireballAttack",
+      "rockShotAttack",
+      "doubleBarbSprayAttack",
+      "miniDragonBreathAttack",
+      "acidSprayAttack",
+      "beamBurstAttack",
+      "plasmaSweepAttack",
+      "eyeballShotAttack",
+      "glitterAttack",
+      "darkGravityBallAttack",
+      "fireSwirlAttack",
+      "rockRollAttack",
+      "iceBlastAttack",
+      "snotBubbleAttack",
+      "leafyGustAttack",
+      "mudBallAttack",
+      "lightBallAttack",
+      "shardSprayAttack",
+      "blueFlameAttack",
+      "smokeRingAttack",
+      "putridWaveAttack",
+      "boneRainAttack",
+      "orbOfZotsAttack",
+      "snotShotAttack",
+      "fishBreathAttack",
+      "explosivePhlegmAttack",
+      "cellBlastAttack"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/windupTime",
+    "value": 0.4
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/windupState",
+    "value": "windup"
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/windupStopForce",
+    "value": 100
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/winddownTime",
+    "value": 0.5
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/winddownState",
+    "value": "winddown"
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/projectileOffset",
+    "value": [
+      0,
+      0
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/skillCount",
+    "value": 3
+  }
+]

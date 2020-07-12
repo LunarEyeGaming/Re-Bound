@@ -1,0 +1,9 @@
+{
+  "name" : "largecoelacanthhead",
+  "category" : "largefishminiboss",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "largecoelacanthhead.png"
+  }
+}
