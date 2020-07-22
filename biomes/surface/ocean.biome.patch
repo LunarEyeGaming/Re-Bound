@@ -1,0 +1,23 @@
+[
+  {
+    "op": "add",
+    "path": "/spawnProfile/groups/-",
+    "value": {
+      "select": 1,
+      "pool": [
+        [1, "largebipedminiboss"],
+        [1, "largequadrupedminiboss"]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/spawnProfile/groups/-",
+    "value": {
+      "select": 1,
+      "pool": [
+        [1, "largefishminiboss"]
+      ]
+    }
+  }
+]
