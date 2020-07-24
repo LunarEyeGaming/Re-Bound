@@ -1,0 +1,26 @@
+{
+  "projectileName" : "rb-electrichomingrocket",
+  "image" : "electrichomingrocket.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "lightColor" : [102, 32, 110],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/electricexplosionknockbackstatus.config"
+    }
+  ],
+  "emitters" : [ "electricplasma", "defaultblue", "electricplasma", "defaultblue", "electricplasma", "defaultblue" ],
+  "power" : 12.0,
+  "speed" : 30.0,
+  "physics" : "grenade",
+  "damageType" : "NoDamage",
+  "damageKind" : "electricplasma",
+
+  "scripts" : [ "/projectiles/guns/rockets/homingrocket/homingrocket.lua" ],
+  "controlForce" : 150,
+  "maxSpeed" : 150,
+
+  "persistentAudio" : "/sfx/projectiles/guidedrocket_electric_loop.ogg"
+}

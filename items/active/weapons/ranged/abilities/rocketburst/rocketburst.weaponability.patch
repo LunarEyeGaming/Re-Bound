@@ -1,0 +1,27 @@
+[
+  {
+    "op": "remove",
+    "path": "/ability/projectileType"
+  },
+  {
+    "op": "add",
+    "path": "/ability/elementalConfig",
+    "value": {
+      "physical": {
+        "projectileType": "minirocket"
+      },
+      "fire": {
+        "projectileType": "rb-fireminirocket"
+      },
+      "electric": {
+        "projectileType": "rb-electricminirocket"
+      },
+      "ice": {
+        "projectileType": "rb-iceminirocket"
+      },
+      "poison": {
+        "projectileType": "rb-poisonminirocket"
+      }
+    }
+  }
+]

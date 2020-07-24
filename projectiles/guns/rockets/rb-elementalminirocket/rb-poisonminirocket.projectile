@@ -1,0 +1,27 @@
+{
+  "projectileName" : "rb-poisonminirocket",
+  "image" : "poisonminirocket.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [40, 71, 14],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/rb-smallelementalexplosion/smallpoisonexplosionknockback.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "emitters" : [ "poisonplasmarocket", "poisondrip" ],
+  "flippable" : true,
+  "power" : 10.0,
+  "speed" : 10.0,
+  "physics" : "rocket",
+  "damageType" : "NoDamage",
+  "damageKind" : "poisonplasma",
+
+  "scripts" : [ "/projectiles/guns/rockets/minirocket/minirocket.lua" ],
+  "maxSpeed" : 75,
+  "controlForce" : 100
+}

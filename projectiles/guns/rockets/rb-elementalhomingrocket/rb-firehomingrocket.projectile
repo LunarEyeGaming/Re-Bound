@@ -1,0 +1,26 @@
+{
+  "projectileName" : "rb-firehomingrocket",
+  "image" : "firehomingrocket.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "lightColor" : [115, 119, 38],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/fireexplosionknockbackstatus.config"
+    }
+  ],
+  "emitters" : [ "fireplasma", "smoke", "flames" ],
+  "power" : 12.0,
+  "speed" : 30.0,
+  "physics" : "grenade",
+  "damageType" : "NoDamage",
+  "damageKind" : "fireplasma",
+
+  "scripts" : [ "/projectiles/guns/rockets/homingrocket/homingrocket.lua" ],
+  "controlForce" : 150,
+  "maxSpeed" : 150,
+
+  "persistentAudio" : "/sfx/projectiles/guidedrocket_fire_loop.ogg"
+}

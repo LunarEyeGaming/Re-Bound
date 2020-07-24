@@ -1,0 +1,7 @@
+[
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/palette",
+    "value": "/items/active/weapons/colors/rangeduncommon.weaponcolors"
+  }
+]

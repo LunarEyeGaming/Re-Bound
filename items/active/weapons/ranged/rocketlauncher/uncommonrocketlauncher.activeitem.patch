@@ -1,0 +1,17 @@
+[
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/palette",
+    "value": "/items/active/weapons/colors/rangeduncommon.weaponcolors"
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/altAbilities/-",
+    "value": "homingrocket"
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/altAbilities/-",
+    "value": "rocketburst"
+  }
+]

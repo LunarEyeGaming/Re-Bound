@@ -1,0 +1,17 @@
+{
+  "projectileName" : "rb-smallfireexplosionknockback",
+  "image" : "smallfireexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "lightColor" : [94, 9, 9],
+  "pointLight" : true,
+  "statusEffects" : [ ],
+  "damagePoly" : [ [-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "bounces" : -1,
+  "flippable" : true,
+  "damageKind" : "fireplasma",
+  "knockback" : 30
+}

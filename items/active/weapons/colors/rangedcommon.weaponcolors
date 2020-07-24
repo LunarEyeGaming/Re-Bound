@@ -1,0 +1,59 @@
+{
+  "name" : "rangedcommon",
+  "swaps" : [
+    {
+      "e35f5d" : "aa1d1b", "b22042" : "8b1311", "871132" : "5d0100", // primary - red //
+      "808080" : "808080", "606060" : "606060", "404040" : "404040"  // secondary - gray //
+    },
+
+    {
+      "e35f5d" : "64967f", "b22042" : "446556", "871132" : "1e2c26", // primary - turquoise //
+      "808080" : "787784", "606060" : "4f545a", "404040" : "33343c"  // secondary - desaturated blue //
+    },
+
+    {
+      "e35f5d" : "ff9d1e", "b22042" : "bb6a0b", "871132" : "6b3501", // primary - orange //
+      "808080" : "787784", "606060" : "4f545a", "404040" : "33343c"  // secondary - desaturated blue //
+    },
+
+    {
+      "e35f5d" : "787784", "b22042" : "4f545a", "871132" : "404040", // primary - desaturated blue //
+      "808080" : "808080", "606060" : "606060", "404040" : "404040"  // secondary - gray //
+    },
+
+    {
+      "e35f5d" : "cb13ff", "b22042" : "9b1dcf", "871132" : "580682", // primary - purple //
+      "808080" : "787784", "606060" : "4f545a", "404040" : "33343c"  // secondary - desaturated blue //
+    },
+
+    {
+      "e35f5d" : "aa1d1b", "b22042" : "8b1311", "871132" : "5d0100", // primary - red //
+      "808080" : "ebebeb", "606060" : "bdbdbd", "404040" : "7d7d7d"  // secondary - white //
+    },
+
+    {
+      "e35f5d" : "ff9d1e", "b22042" : "bb6a0b", "871132" : "6b3501", // primary - orange //
+      "808080" : "ebebeb", "606060" : "bdbdbd", "404040" : "7d7d7d"  // secondary - white //
+    },
+
+    {
+      "e35f5d" : "e6d97a", "b22042" : "b0a03c", "871132" : "6e6215", // primary - yellow //
+      "808080" : "ebebeb", "606060" : "bdbdbd", "404040" : "7d7d7d"  // secondary - white //
+    },
+
+    {
+      "e35f5d" : "78d975", "b22042" : "40a33c", "871132" : "237021", // primary - lime //
+      "808080" : "ebebeb", "606060" : "bdbdbd", "404040" : "7d7d7d"  // secondary - white //
+    },
+
+    {
+      "e35f5d" : "86c5e3", "b22042" : "4d91b0", "871132" : "226482", // primary - sky blue //
+      "808080" : "ebebeb", "606060" : "bdbdbd", "404040" : "7d7d7d"  // secondary - white //
+    },
+
+    {
+      "e35f5d" : "cb13ff", "b22042" : "9b1dcf", "871132" : "580682", // primary - purple //
+      "808080" : "ebebeb", "606060" : "bdbdbd", "404040" : "7d7d7d"  // secondary - white //
+    }
+  ]
+}
