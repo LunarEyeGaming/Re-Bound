@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/primaryAbility/stances/windup/shouldInterpolate",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/primaryAbility/stances/fire/shouldInterpolateEnd",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/primaryAbility/stances/fire/resetDuration",
+    "value": 0.3
+  }
+]

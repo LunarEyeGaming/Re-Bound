@@ -1,0 +1,30 @@
+[
+  {
+    "op": "add",
+    "path": "/ability/stances/windup/shouldInterpolate",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/fire/shouldInterpolateEnd",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/fire/resetDuration",
+    "value": 0.3
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/preslash",
+    "value": {
+      "duration" : 0.025,
+      "armRotation" : 55,
+      "weaponRotation" : -45,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  }
+]

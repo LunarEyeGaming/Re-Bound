@@ -13,5 +13,45 @@
     "op": "add",
     "path": "/builderConfig/0/altAbilities/-",
     "value": "rocketburst"
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/elementalConfig/fire/primaryAbility/projectileType",
+    "value": "rb-uncommonfirerocket"
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/elementalConfig/fire/fireSounds/0",
+    "value": "/sfx/gun/rocket2.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/elementalConfig/ice/primaryAbility/projectileType",
+    "value": "rb-uncommonicerocket"
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/elementalConfig/ice/fireSounds/0",
+    "value": "/sfx/gun/rocket2.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/elementalConfig/poison/primaryAbility/projectileType",
+    "value": "rb-uncommonpoisonrocket"
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/elementalConfig/poison/fireSounds/0",
+    "value": "/sfx/gun/rocket2.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/elementalConfig/electric/primaryAbility/projectileType",
+    "value": "rb-uncommonelectricrocket"
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/0/elementalConfig/electric/fireSounds/0",
+    "value": "/sfx/gun/rocket2.ogg"
   }
 ]

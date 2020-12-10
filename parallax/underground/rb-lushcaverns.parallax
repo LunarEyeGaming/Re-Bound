@@ -1,0 +1,32 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/smoothgap",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/plants",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.35,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/cavernhollow",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/rb-foliagedark",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.65,
+      "repeatY" : true
+    }
+  ]
+}

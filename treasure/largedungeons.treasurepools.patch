@@ -1,0 +1,73 @@
+[
+  {
+    "op": "add",
+    "path": "/rb-FloranLargeDungeonReward",
+    "value": [
+      [
+        1,
+        {
+          "fill": [
+            {
+              "pool": "basicTreasure"
+            },
+            {
+              "pool": "basicTreasure"
+            }
+          ],
+          "pool": [
+            {
+              "weight": 0.5,
+              "pool": "uniqueWeapon"
+            },
+            {
+              "weight": 0.5,
+              "pool": "rb-floranWeapon"
+            }
+          ],
+          "poolRounds": 1,
+          "allowDuplication": false
+        }
+      ]
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/floranhuntinggroundsChestTreasure/0/1/pool/1/pool",
+    "value": "rb-floranWeapon"
+  },
+  {
+    "op": "replace",
+    "path": "/floranhuntinggroundsRareTreasure/0/1/pool/0/pool",
+    "value": "rb-FloranLargeDungeonReward"
+  },
+  {
+    "op": "replace",
+    "path": "/florancanyonChestTreasure/0/1/pool/1/pool",
+    "value": "rb-floranWeapon"
+  },
+  {
+    "op": "replace",
+    "path": "/florancanyonRareTreasure/0/1/pool/0/pool",
+    "value": "rb-FloranLargeDungeonReward"
+  },
+  {
+    "op": "replace",
+    "path": "/floranvillagetowerChestTreasure/0/1/pool/1/pool",
+    "value": "rb-floranWeapon"
+  },
+  {
+    "op": "replace",
+    "path": "/floranvillagetowerRareTreasure/0/1/pool/0/pool",
+    "value": "rb-FloranLargeDungeonReward"
+  },
+  {
+    "op": "replace",
+    "path": "/floranhutvillageChestTreasure/0/1/pool/1/pool",
+    "value": "rb-floranWeapon"
+  },
+  {
+    "op": "replace",
+    "path": "/floranhutvillageRareTreasure/0/1/pool/0/pool",
+    "value": "rb-FloranLargeDungeonReward"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "projectileName" : "rb-airstrikespawnerelectric2",
+  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "frameNumber" : 1,
+  "speed" : 100,
+  "timeToLive" : 1,
+  "onlyHitTerrain" : true,
+  "animationLoops" : false,
+  "flippable" : true,
+  "damageKind" : "default",
+  
+  "actionOnTimeout" : [
+    {
+      "action" : "projectile",
+      "type" : "rb-invisibleprojectile",
+      "inheritDamageFactor" : 1,
+      "direction" : [0, -1],
+      "config" : {
+        "speed" : 400,
+        "actionOnReap" : [
+          {
+            "action" : "config",
+            "file" : "/projectiles/explosions/targetexplosion/rb-targetlockon.config"
+          }
+        ]
+      }
+    },
+    {
+      "action" : "projectile",
+      "type" : "rb-invisibleprojectile",
+      "inheritDamageFactor" : 1,
+      "direction" : [0, -1],
+      "config" : {
+        "timeToLive" : 1.5,
+        "periodicActions" : [
+          {
+            "time" : 0.125,
+            "action" : "projectile",
+            "type" : "rb-electricairstrikeminirocket",
+            "inheritDamageFactor" : 0.083,
+            "offsetRange" : [-2, 0, 2, 0]
+          }
+        ]
+      }
+    }
+  ]
+}

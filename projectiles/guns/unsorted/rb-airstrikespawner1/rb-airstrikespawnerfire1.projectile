@@ -1,0 +1,43 @@
+{
+  "projectileName" : "rb-airstrikespawnerfire1",
+  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "frameNumber" : 1,
+  "speed" : 100,
+  "timeToLive" : 1,
+  "onlyHitTerrain" : true,
+  "animationLoops" : false,
+  "flippable" : true,
+  "damageKind" : "default",
+  
+  "actionOnTimeout" : [
+    {
+      "action" : "projectile",
+      "type" : "rb-invisibleprojectile",
+      "inheritDamageFactor" : 1,
+      "direction" : [0, -1],
+      "config" : {
+        "speed" : 400,
+        "actionOnReap" : [
+          {
+            "action" : "config",
+            "file" : "/projectiles/explosions/targetexplosion/rb-targetlockon.config"
+          }
+        ]
+      }
+    },
+    {
+      "action" : "projectile",
+      "type" : "rb-fireairstrikerocket",
+      "inheritDamageFactor" : 1,
+      "direction" : [0, -1],
+      "config" : {
+        "actionOnReap" : [
+          {
+            "action" : "config",
+            "file" : "/projectiles/explosions/rb-giantexplosion/giantfireexplosionstatus.config"
+          }
+        ]
+      }
+    }
+  ]
+}

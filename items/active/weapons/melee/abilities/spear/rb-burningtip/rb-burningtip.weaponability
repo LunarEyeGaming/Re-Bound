@@ -1,0 +1,228 @@
+{
+  "animationParts" : {
+    "torch" : "/objects/generic/torch/torch.png",
+    "torchlit" : "/objects/generic/torch/torchlit.png"
+  },
+  "animationCustom" : {
+    "globalTagDefaults" : { },
+    "animatedParts" : {
+      "stateTypes" : {
+        "flame" : {
+          "default" : "inactive",
+          "states" : {
+            "inactive" : {},
+            "active" : {
+              "properties" : {
+                "persistentSound" : "/sfx/objects/torch.ogg"
+              }
+            }
+          }
+        },
+        "torch" : {
+          "default" : "invisible",
+          "states" : {
+            "invisible" : {},
+            "visible" : {
+              "frames" : 4,
+              "cycle" : 0.5,
+              "mode" : "loop"
+            }
+          }
+        },
+        "swoosh" : {
+          "states" : {
+            "activefire" : {
+              "frames" : 3,
+              "cycle" : 0.08,
+              "mode" : "transition",
+              "transition" : "idle"
+            }
+          }
+        }
+      },
+      "parts" : {
+        "swoosh" : {
+          "partStates" : {
+            "swoosh" : {
+              "activefire" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/spear/swoosh/fireswoosh.png:<frame>",
+                  "damageArea" : [[-3.5, 0], [-1, 1], [1, 1], [4, 0], [1, -1], [-1, -1]],
+                  "fullbright" : true
+                }
+              }
+            }
+          }
+        },
+        "torch" : {
+          "properties" : {
+            "zLevel" : -2,
+            "centered" : true,
+            "fullbright" : true,
+            "offset" : [1, 1.5],
+            "transformationGroups" : ["weapon", "torch"]
+          },
+
+          "partStates" : {
+            "torch" : {
+              "visible" : {
+                "properties" : {
+                  "image" : "<partImage>:default.<frame>"
+                }
+              }
+            }
+          }
+        },
+        "torchlit" : {
+          "properties" : {
+            "zLevel" : -1,
+            "centered" : true,
+            "anchorPart" : "torch"
+          },
+
+          "partStates" : {
+            "torch" : {
+              "visible" : {
+                "properties" : {
+                  "image" : "<partImage>:default.<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "particleEmitters" : {
+      "activephysicalswoosh" : {
+        "active" : false,
+        "transformationGroups" : ["swoosh"],
+        "emissionRate" : 60,
+        "offsetRegion" : [3.5, -1.0, 7.5, 1.0],
+        "particles" : [
+          { "particle" : "fireswoosh1"},
+          { "particle" : "fireswoosh2"},
+          { "particle" : "fireswoosh3"},
+          { "particle" : "fireswoosh1"},
+          { "particle" : "fireswoosh2"},
+          { "particle" : "fireswoosh3"}
+        ]
+      },
+      "flameweak" : {
+        "active" : false,
+        "transformationGroups" : ["weapon"],
+        "emissionRate" : 10,
+        "offsetRegion" : [-1, 0.875, 1, 2.875],
+        "particles" : [
+          { "particle" : "fireswoosh1"},
+          { "particle" : "fireswoosh2"},
+          { "particle" : "fireswoosh3"},
+          { "particle" : "fireswoosh1"},
+          { "particle" : "fireswoosh2"},
+          { "particle" : "fireswoosh3"}
+        ]
+      },
+      "flame" : {
+        "active" : false,
+        "transformationGroups" : ["weapon"],
+        "emissionRate" : 10,
+        "offsetRegion" : [0, 2.5, 0, 2.5],
+        "particles" : [
+          {
+            "particle" : {
+              "type" : "animated",
+              "animation" : "/animations/mediumflamefire/mediumflamefire.animation",
+              "fullbright" : true,
+              "light" : [218, 83, 2],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "position" : [0, 0],
+              "timeToLive" : 1,
+              "variance" : {
+                "initialVelocity" : [1, 1]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "transformationGroups" : {
+      "torch" : {"interpolated" : true}
+    },
+    "sounds" : {
+      "activefire" : [ "/sfx/melee/swing_spear_fire1.ogg", "/sfx/melee/swing_spear_fire2.ogg", "/sfx/melee/swing_spear_fire3.ogg" ],
+      "ignite" : [ "/sfx/projectiles/fireball_spit.ogg" ],
+      "burnout" : [ "/sfx/objects/flametrap_off.ogg" ]
+    }
+  },
+
+  // Requires the weapon to use a script that can apply the appropriate changes, such as damage and animation.
+  "ability" : {
+    "name" : "Torch Tip",
+    "type" : "rb-burningtip",
+    "scripts" : ["/items/active/weapons/melee/abilities/spear/rb-burningtip/rb-burningtip.lua"],
+    "class" : "BurningTip",
+
+    "energyCost" : 100,
+    "cooldownTime" : 3.0,
+
+    "dpsMultiplier" : 1.5,
+    "newDamageConfig" : {
+      "damageSourceKind" : "firespear",
+      "statusEffects" : [ "burning" ]
+    },
+
+    "flameStartAlpha" : 191,
+    "flameEndAlpha" : 0,
+    "burnTime" : 10.0,
+    "lowBurnTimeThreshold" : 5.0,
+
+    "burnoutStartValues" : [-100, -50],
+    "burnoutEndValues" : [0, 0],
+    "burnoutTag" : "?saturation=%s?brightness=%s",
+    "burnoutTime" : 5.0,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "weaponOffset" : [0, 0.5],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "preignite" : {
+        "duration" : 0.6,
+        "armRotation" : -45,
+        "weaponRotation" : 0,
+        "torchRotation" : 45,
+        "twoHanded" : true,
+
+        "weaponOffset" : [-0.25, -0.5],
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+        "aimAngle" : 0,
+
+        "frontArmFrame" : "swim.2",
+        "backArmFrame" : "swim.3"
+      },
+      "ignite" : {
+        "duration" : 0.15,
+        "armRotation" : -45,
+        "weaponRotation" : 0,
+        "torchRotation" : 45,
+        "twoHanded" : true,
+
+        "weaponOffset" : [-0.25, -0.5],
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+        "aimAngle" : 0,
+
+        "frontArmFrame" : "swim.2",
+        "backArmFrame" : "swim.3"
+      }
+    }
+  }
+}

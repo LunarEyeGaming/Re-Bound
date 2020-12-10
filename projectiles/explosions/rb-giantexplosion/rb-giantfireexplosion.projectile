@@ -1,0 +1,17 @@
+{
+  "projectileName" : "rb-giantfireexplosion",
+  "image" : "giantfireexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "lightColor" : [219, 92, 92],
+  "pointLight" : true,
+  "statusEffects" : [ ],
+  "damagePoly" : [ [-74, 0], [-56, -56], [0, -74], [56, -56], [74, 0], [56, 56], [0, 74], [-56, 56] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "bounces" : -1,
+  "flippable" : true,
+  "damageKind" : "fireplasma",
+  "knockback" : 30
+}

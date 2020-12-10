@@ -1,0 +1,99 @@
+[
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/damageOnTouch",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/targetQueryRange",
+    "value": 40
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/targetOutOfSightTime",
+    "value": 15
+  },
+  {
+    "op": "remove",
+    "path": "/baseParameters/behaviorConfig/foundTargetActions/0"
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/hostileActions/0/name",
+    "value": "rb-action-chargetouchdamage"
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/hostileActions/0/parameters/maximumRange",
+    "value": 10
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/hostileActions/0/parameters/chargeSpeed",
+    "value": 30
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/hostileActions/0/parameters/chargeControlForce",
+    "value": 400
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/approachActions/0/name",
+    "value": "rb-approach-stalk"
+  },
+  {
+    "op": "remove",
+    "path": "/baseParameters/behaviorConfig/approachActions/0/parameters/minXRange"
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/approachActions/0/parameters/minimumRange",
+    "value": 15
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/approachActions/-",
+    "value": {
+      "name": "wander-walk",
+      "cooldown": 0,
+      "parameters": {
+        "moveState": "stroll",
+        "wanderTime": [
+          3,
+          3
+        ]
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/wanderActions/0/cooldown",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/wanderActions/0/parameters/moveState",
+    "value": "walk"
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/wanderActions/0/parameters/wanderTime/0",
+    "value": 3
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/wanderActions/0/parameters/wanderTime/1",
+    "value": 6
+  },
+  {
+    "op": "remove",
+    "path": "/baseParameters/behaviorConfig/wanderActions/1"
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/touchDamage/damage",
+    "value": 23
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/rb-randomfloranmelee",
+    "value": [
+      [0, [
+        {"item": {"name": "rb-floranwoodspear"}, "rarity": 0.02, "useSeed": true}
+      ]]
+    ]
+  }
+]

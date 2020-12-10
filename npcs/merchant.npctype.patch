@@ -1,0 +1,7 @@
+[
+  {
+    "op": "replace",
+    "path": "/scriptConfig/merchant/categories/floran/4",
+    "value": "rb-randomfloranmelee"
+  }
+]

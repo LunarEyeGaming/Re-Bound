@@ -1,0 +1,62 @@
+[
+  {
+    "op": "add",
+    "path": "/ability/stances/windup1/shouldInterpolate",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/preslash1/shouldInterpolate",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/wait1/shouldInterpolate",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/windup2/shouldInterpolate",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/ability/stances/fire2/armRotation",
+    "value": -125
+  },
+  {
+    "op": "replace",
+    "path": "/ability/stances/fire2/weaponRotation",
+    "value": 30
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/wait2/shouldInterpolate",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/ability/stances/wait2/armRotation",
+    "value": -125
+  },
+  {
+    "op": "replace",
+    "path": "/ability/stances/wait2/weaponRotation",
+    "value": 30
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/windup3/shouldInterpolate",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/fire3/resetDuration",
+    "value": 0.3
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/fire3/shouldInterpolateEnd",
+    "value": true
+  }
+]

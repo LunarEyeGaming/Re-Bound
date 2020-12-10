@@ -13,5 +13,20 @@
     "op": "add",
     "path": "/builderConfig/0/altAbilities/-",
     "value": "rocketburst"
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/altAbilities/-",
+    "value": "rb-airstrike1"
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/altAbilities/-",
+    "value": "rb-airstrike2"
+  },
+  {
+    "op": "add",
+    "path": "/builderConfig/0/altAbilities/-",
+    "value": "rb-repulsionrocket"
   }
 ]

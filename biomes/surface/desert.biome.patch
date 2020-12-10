@@ -1,0 +1,56 @@
+[
+  {
+    "op": "add",
+    "path": "/hueShiftOptions/0",
+    "value": -162
+  },
+  {
+    "op": "add",
+    "path": "/hueShiftOptions/-",
+    "value": 18
+  },
+  {
+    "op": "add",
+    "path": "/hueShiftOptions/-",
+    "value": 52
+  },
+  {
+    "op": "add",
+    "path": "/hueShiftOptions/-",
+    "value": 141
+  },
+  {
+    "op": "add",
+    "path": "/skyOptions/-",
+    "value": {
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [97, 21, 15], [153, 43, 31] ],
+      "dayColors" : [ [116, 116, 116], [200, 200, 200] ],
+      "eveningColors" : [ [97, 21, 15], [153, 43, 31] ],
+      "nightColors" : [ [50, 50, 50, 80], [70, 70, 70, 160] ],
+
+      "morningLightColor" : [71, 71, 71],
+      "dayLightColor" : [200, 200, 200],
+      "eveningLightColor" : [71, 71, 71],
+      "nightLightColor" : [40, 40, 40]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/skyOptions/-",
+    "value": {
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [97, 21, 15], [153, 43, 31] ],
+      "dayColors" : [ [96, 106, 128], [144, 153, 171] ],
+      "eveningColors" : [ [97, 21, 15], [153, 43, 31] ],
+      "nightColors" : [ [35, 35, 35, 80], [60, 60, 60, 160] ],
+
+      "morningLightColor" : [181, 70, 60],
+      "dayLightColor" : [163, 178, 209],
+      "eveningLightColor" : [181, 70, 60],
+      "nightLightColor" : [20, 20, 20]
+    }
+  }
+]

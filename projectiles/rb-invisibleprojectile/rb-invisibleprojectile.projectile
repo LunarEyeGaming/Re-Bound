@@ -1,0 +1,10 @@
+{
+  "projectileName" : "rb-invisibleprojectile", // Normal invisible projectile has an indiscriminate damage team.
+  "image" : "invisibleprojectile.png",
+  "frameNumber" : 1,
+  "speed" : 0,
+  "onlyHitTerrain" : true,
+  "animationLoops" : false,
+  "flippable" : true,
+  "damageKind" : "default"
+}

@@ -1,0 +1,64 @@
+{
+  "itemName" : "rb-floranwoodspear",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A brittle but light wooden spear used by Floran tribes.",
+  "shortdescription" : "Tribal Wooden Spear",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "animation" : "/items/active/weapons/melee/spear/rb-floranspears/rb-floranspear.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/spear/rb-floranspears/rb-floranwoodspear.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "rb-dynamicspearstab",
+  "primaryAbility" : {
+    "fireTime" : [0.5, 0.7],
+    "baseDps" : [7, 8],
+    "damageConfig" : {
+      "knockbackRange" : [20, 30]
+    },
+    "stances" : {
+      "fire" : {
+        "resetDuration" : 0.1
+      },
+      "hold" : {
+        "resetDuration" : 0.1
+      }
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "spearnames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "blade/<variant>.png",
+        "variants" : 7,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "handle/<variant>.png",
+        "variants" : 7,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "flurry",
+      "spearspin",
+      "rb-burningtip"
+    ],
+    "palette" : "/items/active/weapons/colors/rb-floranwoodspear.weaponcolors",
+    "iconDrawables" : [ "handle", "blade" ]
+  }]
+}

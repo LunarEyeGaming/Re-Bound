@@ -1,0 +1,38 @@
+{
+  "rb-floranWeapon" : [
+    [0, {
+      "pool" : [
+        // large chance of melee
+        {"weight" : 0.75, "pool" : "rb-floranMelee"},
+
+        // small chance of ranged
+        {"weight" : 0.25, "pool" : "rb-floranRanged"}
+      ]
+    }],
+    [2.9, {
+      "pool" : [
+        // moderate chance of melee
+        {"weight" : 0.5, "pool" : "rb-floranMelee"},
+
+        // moderate chance of ranged
+        {"weight" : 0.5, "pool" : "rb-floranRanged"}
+      ]
+    }]
+  ],
+
+  "rb-floranMelee" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.007, "item" : "rb-floranwoodspear"}
+      ]
+    }]
+  ],
+
+  "rb-floranRanged" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.007, "pool" : "empty"}
+      ]
+    }]
+  ]
+}

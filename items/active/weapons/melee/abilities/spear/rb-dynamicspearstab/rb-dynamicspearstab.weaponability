@@ -1,0 +1,73 @@
+{
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "ability" : {
+    "name" : "Stabby Stab Stab",
+    "type" : "rb-dynamicspearstab",
+    "scripts" : ["/items/active/weapons/melee/abilities/spear/rb-dynamicspearstab/rb-dynamicspearstab.lua"],
+    "class" : "DynamicSpearStab",
+
+    "fireTime" : 1.0,
+    "baseDps" : 9.5,
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockback" : 30,
+      "timeoutGroup" : "primary"
+    },
+    "holdDamageMultiplier" : 0.1,
+    "holdDamageConfig" : {
+      "timeoutGroup" : "hold",
+      "timeout" : 0.5
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "weaponOffset" : [0, 0.5],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup" : {
+        "duration" : 0.1,
+        "armRotation" : -110,
+        "weaponRotation" : 20,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0.5],
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+        "shouldInterpolate" : true
+      },
+      "fire" : {
+        "duration" : 0.3,
+        "resetDuration" : 0.3,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 2.5],
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+        "shouldInterpolateEnd" : true
+      },
+      "hold" : {
+        "adjustTime" : 0.1,
+        "resetDuration" : 0.3,
+        "armRotation" : -30,
+        "weaponRotation" : -60,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 2.0],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "shouldInterpolate" : true,
+        "shouldInterpolateEnd" : true
+      }
+    }
+  }
+}

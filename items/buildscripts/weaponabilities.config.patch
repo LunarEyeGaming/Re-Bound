@@ -1,0 +1,8 @@
+[
+  {"op": "add", "path": "/rb-airstrike1", "value": "/items/active/weapons/ranged/abilities/rb-airstrike/rb-airstrike1.weaponability"},
+  {"op": "add", "path": "/rb-airstrike2", "value": "/items/active/weapons/ranged/abilities/rb-airstrike/rb-airstrike2.weaponability"},
+  {"op": "add", "path": "/rb-airstrike3", "value": "/items/active/weapons/ranged/abilities/rb-airstrike/rb-airstrike3.weaponability"},
+  {"op": "add", "path": "/rb-repulsionrocket", "value": "/items/active/weapons/ranged/abilities/rb-repulsionrocket/rb-repulsionrocket.weaponability"},
+  {"op": "add", "path": "/rb-dynamicspearstab", "value": "/items/active/weapons/melee/abilities/spear/rb-dynamicspearstab/rb-dynamicspearstab.weaponability"},
+  {"op": "add", "path": "/rb-burningtip", "value": "/items/active/weapons/melee/abilities/spear/rb-burningtip/rb-burningtip.weaponability"}
+]

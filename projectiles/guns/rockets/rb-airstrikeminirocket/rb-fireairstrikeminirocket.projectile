@@ -1,0 +1,23 @@
+{
+  "projectileName" : "rb-fireairstrikeminirocket",
+  "image" : "fireairstrikeminirocket.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [77, 79, 17],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/rb-smallelementalexplosion/smallfireexplosionknockback.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "emitters" : [ "fireplasma", "smoke", "flames" ],
+  "flippable" : true,
+  "power" : 10.0,
+  "speed" : 80.0,
+  "physics" : "rocket",
+  "damageType" : "NoDamage",
+  "damageKind" : "fireplasma"
+}

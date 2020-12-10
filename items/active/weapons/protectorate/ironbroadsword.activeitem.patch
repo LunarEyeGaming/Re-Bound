@@ -1,0 +1,90 @@
+[
+  {
+    "op": "add",
+    "path": "/animationCustom/animatedParts",
+    "value": {
+      "stateTypes": {
+        "swoosh": {
+          "states": {
+            "fire4": {
+              "frames": 3,
+              "cycle": 0.1,
+              "mode": "transition",
+              "transition": "idle"
+            }
+          }
+        }
+      },
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "swoosh": {
+              "fire2" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/broadsword/swoosh/physicalswoosh.png:<frame>?flipy",
+                  "offset" : [0, -2.5],
+                  "damageArea" : [[-5, -2], [-2.5, -3], [1, -3], [4, -1.75], [5, 0.25], [5, 2.25], [4, 3.25], [0, 2.5]]
+                }
+              },
+              "fire3" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/broadsword/swoosh/physicalswoosh.png:<frame>",
+                  "offset" : [0, 2.5],
+                  "damageArea" : [[-5, 2], [-2.5, 3], [1, 3], [4, 1.75], [5.25, -0.25], [5.25, -2.25], [3.75, -3.25], [0.25, -2.75]]
+                }
+              },
+              "fire4" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/broadsword/swoosh3/physicalswoosh.png:<frame>",
+                  "offset" : [3.5, 0],
+                  "damageArea" : [[-4.75, 1.5], [3, 1], [3, -1], [-4.75, -1.5]]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/animationCustom/sounds",
+    "value": {
+      "fire2" : [ "/sfx/melee/swing_broadsword.ogg" ],
+      "fire3" : [ "/sfx/melee/swing_broadsword.ogg" ],
+      "fire4" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/primaryAbility/comboSteps",
+    "value": 4
+  },
+  {
+    "op": "add",
+    "path": "/primaryAbility/swooshOffsetRegions",
+    "value": [[0.75, 0.0, 4.25, 5.0], [-0.75, 0.0, -4.25, -5.0], [0.75, 0.0, 4.25, 5.0], [1.5, -1.0, 5.5, 1.0]]
+  },
+  {
+    "op": "add",
+    "path": "/primaryAbility/stepDamageConfig",
+    "value": [{"baseDamageFactor" : 1.0, "knockback" : 15}, {"baseDamageFactor" : 1.0, "knockback" : 15}, {"baseDamageFactor" : 1.0, "knockback" : 15}, {"baseDamageFactor" : 1.0, "knockback" : 25}]
+  },
+  {
+    "op": "add",
+    "path": "/primaryAbility/stances",
+    "value": {
+      "fire1" : {"duration" : 0.3},
+      "windup2" : {"duration" : 0.2, "armRotation" : -150, "weaponRotation" : -85, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true},
+      "preslash2" : {"duration" : 0.05, "armRotation" : -100, "weaponRotation" : -85, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true},
+      "fire2" : {"duration" : 0.3, "armRotation" : 50, "weaponRotation" : -90, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true},
+      "wait2" : {"duration" : 0.2, "armRotation" : 50, "weaponRotation" : -90, "allowRotate" : false, "allowFlip" : true, "twoHanded" : true}, 
+      "windup3" : {"duration" : 0.25, "armRotation" : 90, "weaponRotation" : -10, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true},
+      "preslash3" : {"duration" : 0.025, "armRotation" : 55, "weaponRotation" : -45, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false}, 
+      "fire3" : {"duration" : 0.3, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true}, 
+      "wait3" : {"duration" : 0.2, "armRotation" : -45, "weaponRotation" : -55, "allowRotate" : false, "allowFlip" : true, "twoHanded" : true, "shouldInterpolate" : true},
+      "windup4" : {"duration" : 0.15, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true, "shouldInterpolate" : true},
+      "fire4" : {"duration" : 0.3, "resetDuration" : 0.3, "armRotation" : 0, "weaponRotation" : -90, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true, "shouldInterpolateEnd" : true}
+    }
+  }
+]

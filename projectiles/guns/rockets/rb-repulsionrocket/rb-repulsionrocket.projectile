@@ -1,0 +1,25 @@
+{
+  "projectileName" : "rb-repulsionrocket",
+  "image" : "repulsionrocket.png",
+  "animationCycle" : 0.3,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "fallSpeed" : 0,
+  "lightColor" : [164, 81, 196],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/rb-repulsionexplosion/repulsionexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "emitters" : [ "rocketsmoke" ],
+  "flippable" : true,
+  "power" : 10.0,
+  "speed" : 1.0,
+  "acceleration" : 150,
+  "physics" : "rocket",
+  "damageType" : "NoDamage",
+  "damageKind" : "plasma"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "op": "add",
+    "path": "/ability/stances/windup/shouldInterpolate",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/fire/shouldInterpolateEnd",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/fire/resetDuration",
+    "value": 0.3
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/hold/adjustTime",
+    "value": 0.1
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/hold/shouldInterpolate",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/hold/shouldInterpolateEnd",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/ability/stances/hold/resetDuration",
+    "value": 0.3
+  }
+]

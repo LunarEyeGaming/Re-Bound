@@ -1,0 +1,19 @@
+[
+  {
+    "op": "add",
+    "path": "/planetTypes/garden/layers/subsurface",
+    "value": {
+      "primaryRegion": ["gardensubsurface"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/gardensubsurface",
+    "value": {
+      "caveLiquid": ["water"],
+      "biome": [
+        [0, ["underground1b", "rb-lushcaverns"] ]
+      ]
+    }
+  }
+]

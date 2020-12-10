@@ -1,0 +1,58 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "transformationGroups" : ["muzzle"],
+        "emissionRate" : 8,
+        "offsetRegion" : [0.0, 0.0, 0.0, 0.0],
+        "burstCount" : 3,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff" }
+        ]
+      }
+    },
+    "sounds" : {
+      "altFire" : [ "/sfx/gun/rocket2.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Repulsion Rocket",
+    "type" : "rb-repulsionrocket",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+
+    "projectileType" : "rb-repulsionrocket",
+    "projectileParameters" : {},
+
+    // use baseDps and fireTime from primary fire
+
+    "baseDamageMultiplier" : 0.5,
+    "energyUsage" : 50,
+
+    "stances" : {
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [-0.2, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 1.5,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [-0.2, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  }
+}
