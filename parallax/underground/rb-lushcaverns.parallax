@@ -1,8 +1,8 @@
 {
   "layers" : [
     {
-      "kind" : "tile/smoothgap",
-      "nohueshift" : false,
+      "kind" : "tile/clayfront",
+      "nohueshift" : true,
       "lightMapped" : true,
       "parallax" : 1.2,
       "repeatY" : true
@@ -16,7 +16,7 @@
     },
     {
       "kind" : "tile/cavernhollow",
-      "nohueshift" : false,
+      "nohueshift" : true,
       "lightMapped" : true,
       "parallax" : 1.5,
       "repeatY" : true

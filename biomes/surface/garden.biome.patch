@@ -1,17 +1,17 @@
 [
   {
     "op": "add",
-    "path": "/spawnProfile/groups/1/pool",
+    "path": "/spawnProfile/groups/0/pool/-",
     "value": [1.0, "bobfae"]
   },
   {
     "op": "add",
-    "path": "/spawnProfile/groups/1/pool",
+    "path": "/spawnProfile/groups/0/pool/-",
     "value": [1.0, "peblit"]
   },
   {
     "op": "add",
-    "path": "/spawnProfile/groups/1/pool",
+    "path": "/spawnProfile/groups/0/pool/-",
     "value": [1.0, "batong"]
   },
   {
