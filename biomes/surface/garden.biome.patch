@@ -16,6 +16,11 @@
   },
   {
     "op": "add",
+    "path": "/spawnProfile/groups/0/pool/-",
+    "value": [1.0, "rb-barkbat"]
+  },
+  {
+    "op": "add",
     "path": "/spawnProfile/groups/-",
     "value": {
       "select": 1,

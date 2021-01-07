@@ -1,0 +1,19 @@
+[
+  {
+    "name" : "rb-barkbat",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "exposed",
+      "time" : "night"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.01,
+    "monsterType" : [
+      [1, "rb-barkbat"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  }
+]

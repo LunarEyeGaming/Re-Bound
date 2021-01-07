@@ -1,0 +1,16 @@
+{
+  "projectileName" : "rb-barkbatwave",
+  "image" : "barkbatwave.png",
+  "physics" : "laser",
+  "animationCycle" : 1.0,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 7,
+  "power" : 50,
+  "speed" : 40,
+  "timeToLive" : 1.0,
+  "bounces" : 4,
+  "piercing" : true,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "damageKind" : "slash",
+  "statusEffects" : [ {"effect" : "paralysis", "duration" : 5.0} ]
+}
