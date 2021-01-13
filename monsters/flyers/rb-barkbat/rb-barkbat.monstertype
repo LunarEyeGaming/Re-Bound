@@ -3,7 +3,7 @@
   "shortdescription" : "Bark Bat",
   "description" : "<todo>.",
 
-  "categories" : [ "iceagrobat" ],
+  "categories" : [ "rb-barkbat" ],
   "parts" : [ "body" ],
 
   "animation" : "rb-barkbat.animation",
@@ -39,19 +39,19 @@
             "requireLineOfSight" : true,
             "maximumRange" : 30,
             "minimumRange" : 25,
-            "windupState" : "",
+            "windupState" : "firewindup",
             "windupTime" : 1.25,
 
             "projectileType" : "rb-barkbatwave",
             "fireOffset" : [0, 0],
             "aimAtTarget" : true,
             "onGround" : false,
-            "fireState" : "",
+            "fireState" : "prefire",
             "fireSound" : "fire",
             "fireDelay" : 0.1,
 
-            "winddownState" : "",
-            "winddownTime" : 1.0
+            "winddownState" : "fireend",
+            "winddownTime" : 0.1
           }
         },
         {
@@ -101,19 +101,9 @@
 
       "wanderActions" : [
         {
-          "name" : "land-fly",
-          "cooldown" : 2,
-          "parameters" : {
-            "landDirection" : [0, 1],
-            "flySpeed" : 12,
-            "flyControlForce" : 5,
-            "idleTime" : [5,10]
-          }
-        },
-        {
           "name" : "wander-fly",
           "parameters" : {
-            "wanderTime" : [2,4],
+            "wanderTime" : [7,9],
             "groundDistance" : 30,
             "ceilingDistance" : 8,
             "xVelocity" : 8,

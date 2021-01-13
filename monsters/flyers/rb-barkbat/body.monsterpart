@@ -1,0 +1,9 @@
+{
+  "name" : "rb-barkbat",
+  "category" : "rb-barkbat",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "barkbat.png"
+  }
+}
