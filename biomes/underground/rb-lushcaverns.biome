@@ -6,11 +6,10 @@
     "groups" : [
       {
         "select" : 3,
-        "pool" : [ 
-          [ 1.0, "gleap" ],
-          [ 1.0, "nutmidge" ],
+        "pool" : [
           [ 1.0, "peblit" ],
           [ 1.0, "batong" ],
+          [ 1.0, "agrobat" ],
           [ 1.0, "iguarmor" ]
         ]
       },
@@ -33,7 +32,7 @@
 
   "mainBlock" : "cobblestone",
   "subBlocks" : [ "dirt", "mud" ],
-  "ores" : "depth1",
+  "ores" : "rb-lushcaverns",
 
   "ambientNoises" : {
     "day" : {

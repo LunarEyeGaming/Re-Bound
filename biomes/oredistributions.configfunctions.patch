@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/rb-lushcaverns",
+    "value": [
+      [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "iron", 0.75 ] ] ]
+    ]
+  }
+]

@@ -3,16 +3,33 @@
     "op": "add",
     "path": "/planetTypes/garden/layers/subsurface",
     "value": {
-      "primaryRegion": ["gardensubsurface"]
+      "primaryRegion": ["rb-gardensubsurface"]
     }
   },
   {
     "op": "add",
-    "path": "/regionTypes/gardensubsurface",
+    "path": "/planetTypes/garden/layers/shallowunderground",
+    "value": {
+      "primaryRegion": ["rb-gardenshallowunderground"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/rb-gardensubsurface",
     "value": {
       "caveLiquid": ["water"],
       "biome": [
-        [0, ["underground1b", "rb-lushcaverns"] ]
+        [0, ["rb-lushcaverns"] ]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/rb-gardenshallowunderground",
+    "value": {
+      "caveLiquid": ["water"],
+      "biome": [
+        [0, ["underground1b"] ]
       ]
     }
   }

@@ -1,0 +1,40 @@
+{
+  "metadata" : {
+    "name" : "rb-lushcavernsmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "copperdeposit", "silverdeposit", "golddeposit" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "copperdeposit",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "copperdeposit.json" ]
+    },
+    {
+      "name" : "silverdeposit",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "silverdeposit.json" ]
+    },
+    {
+      "name" : "golddeposit",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "golddeposit.json" ]
+    }
+  ]
+}
+  

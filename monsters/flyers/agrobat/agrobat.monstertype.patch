@@ -1,0 +1,17 @@
+[
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/targetQueryRange",
+    "value": 40
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/touchDamage/damage",
+    "value": 15
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/statusSettings/stats/maxHealth/baseValue",
+    "value": 60
+  }
+]

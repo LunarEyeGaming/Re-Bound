@@ -1,0 +1,45 @@
+[
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/concurrentHostileActions",
+    "value": [
+      {
+        "name": "idle-crawl",
+        "parameters": {
+          "stopForce": 500
+        }
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/targetQueryRange",
+    "value": 10
+  },
+  {
+    "op": "remove",
+    "path": "/baseParameters/behaviorConfig/approachActions/0"
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/foundTargetActions/0",
+    "value": {
+      "name" : "action-animate",
+      "parameters" : {
+        "stateType" : "body",
+        "state" : "idle",
+        "animationTime" : 0.1
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/touchDamage/damage",
+    "value": 20
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/movementSettings/walkSpeed",
+    "value": 6
+  }
+]

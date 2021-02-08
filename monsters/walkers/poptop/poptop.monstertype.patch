@@ -95,5 +95,10 @@
     "op": "replace",
     "path": "/baseParameters/touchDamage/damage",
     "value": 23
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/statusSettings/stats/knockbackStunTime/baseValue",
+    "value": 0.1
   }
 ]

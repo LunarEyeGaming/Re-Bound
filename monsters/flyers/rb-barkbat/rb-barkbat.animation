@@ -154,8 +154,6 @@
     "deathPoof" : {
       "particles" : [
         { "particle" : "monstersplosion" },
-        { "particle" : "agrobatwing" },
-        { "particle" : "agrobatwingflipped" },
         { "particle" : "deathember" },
         { "particle" : "deathember" },
         { "particle" : "deathember" },
