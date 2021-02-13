@@ -1,0 +1,82 @@
+{
+  "metadata" : {
+    "name" : "rb-mossycavernsmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "mossycaverns_open1", "mossycaverns_open2", "mossycaverns_tunnel", "mossycaverns_tunnelBackSlope", "mossycaverns_tunnelForwardSlope", "mossycaverns_tunnelForwardSlope2", "mossycaverns_tunnelForwardSlope3", "mossycaverns_tunnelWeakBackSlope", "mossycaverns_tunnelWeakForwardSlope" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "mossycaverns_open1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "mossycaverns_open1.json" ]
+    },
+    {
+      "name" : "mossycaverns_open2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "mossycaverns_open2.json" ]
+    },
+    {
+      "name" : "mossycaverns_tunnel",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "mossycaverns_tunnel.json" ]
+    },
+    {
+      "name" : "mossycaverns_tunnelBackSlope",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "mossycaverns_tunnelBackSlope.json" ]
+    },
+    {
+      "name" : "mossycaverns_tunnelForwardSlope",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "mossycaverns_tunnelForwardSlope.json" ]
+    },
+    {
+      "name" : "mossycaverns_tunnelForwardSlope2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "mossycaverns_tunnelForwardSlope2.json" ]
+    },
+    {
+      "name" : "mossycaverns_tunnelForwardSlope3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "mossycaverns_tunnelForwardSlope3.json" ]
+    },
+    {
+      "name" : "mossycaverns_tunnelWeakBackSlope",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "mossycaverns_tunnelWeakBackSlope.json" ]
+    },
+    {
+      "name" : "mossycaverns_tunnelWeakForwardSlope",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "mossycaverns_tunnelWeakForwardSlope.json" ]
+    }
+  ]
+}
+  

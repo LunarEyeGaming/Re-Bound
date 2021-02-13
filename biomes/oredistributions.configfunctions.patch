@@ -1,9 +1,23 @@
 [
   {
     "op": "add",
+    "path": "/rb-garden",
+    "value": [
+      [0.5, [ [ "coal", 0.6 ], [ "copper", 0.6 ], [ "iron", 0.6 ] ] ]
+    ]
+  },
+  {
+    "op": "add",
     "path": "/rb-lushcaverns",
     "value": [
-      [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "iron", 0.75 ] ] ]
+      [0.5, [ [ "coal", 0.8 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "iron", 0.75 ] ] ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/rb-mossycaverns",
+    "value": [
+      [0.5, [ [ "coal", 1.00 ], [ "copper", 0.5 ], [ "silver", 0.2 ], [ "rb-tin", 0.6 ] ] ]
     ]
   }
 ]

@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/transformationGroups/aim",
+    "value": {
+      "interpolated": true
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name" : "rb-croller",
+  "category" : "rb-croller",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

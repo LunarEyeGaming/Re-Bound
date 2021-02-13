@@ -3,7 +3,7 @@
     "op": "add",
     "path": "/planetTypes/garden/layers/subsurface",
     "value": {
-      "primaryRegion": ["rb-gardensubsurface"]
+      "primaryRegion": ["rb-lushcaverns", "rb-mossycaverns"]
     }
   },
   {
@@ -15,11 +15,20 @@
   },
   {
     "op": "add",
-    "path": "/regionTypes/rb-gardensubsurface",
+    "path": "/regionTypes/rb-lushcaverns",
+    "value": {
+      "biome": [
+        [0, ["rb-lushcaverns"] ]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/rb-mossycaverns",
     "value": {
       "caveLiquid": ["water"],
       "biome": [
-        [0, ["rb-lushcaverns"] ]
+        [0, ["rb-mossycaverns"] ]
       ]
     }
   },

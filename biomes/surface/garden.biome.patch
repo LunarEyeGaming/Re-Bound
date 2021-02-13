@@ -112,5 +112,10 @@
       "eveningLightColor" : [49, 193, 91],
       "nightLightColor" : [36, 7, 4]
     }
+  },
+  {
+    "op": "replace",
+    "path": "/ores",
+    "value": "rb-garden"
   }
 ]

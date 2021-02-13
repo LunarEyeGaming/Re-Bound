@@ -15,5 +15,23 @@
     "monsterParameters" : {
       "aggressive" : true
     }
+  },
+
+  {
+    "name" : "rb-croller",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "enclosed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.05,
+    "monsterType" : [
+      [1.0, "rb-croller"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
   }
 ]

@@ -1,0 +1,10 @@
+{
+  "itemName" : "rb-bronzebar",
+  "price" : 75,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "rb-bronzebar.png",
+  "description" : "An alloy of copper and tin, it is useful for crafting.",
+  "shortdescription" : "Bronze Bar",
+  "itemTags" : [ "reagent" ]
+}

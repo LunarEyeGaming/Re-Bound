@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/hostileActions/0/parameters/rotateAim",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/statusSettings/stats/knockbackThreshold/baseValue",
+    "value": 999999999
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/approachActions/0",
+    "value": {
+      "name" : "wander-crawl",
+      "cooldown" : 1,
+      "parameters" : {
+        "wanderTime" : 1.5,
+        "stopForce" : 200,
+        "idleTime" : 1.0,
+        "resetHeading" : false
+      }
+    }
+  }
+]

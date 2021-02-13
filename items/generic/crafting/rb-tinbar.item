@@ -1,0 +1,10 @@
+{
+  "itemName" : "rb-tinbar",
+  "price" : 20,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "rb-tinbar.png",
+  "description" : "Ore for tin bars is found in the underground on most planets around all stars.",
+  "shortdescription" : "Tin Bar",
+  "itemTags" : [ "reagent" ]
+}

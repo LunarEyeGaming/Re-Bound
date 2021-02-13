@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/wanderActions/1/parameters/wanderTime/0",
+    "value": 15
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/behaviorConfig/wanderActions/1/parameters/wanderTime/1",
+    "value": 20
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/movementSettings/airFriction",
+    "value": 2
+  },
+  {
+    "op": "replace",
+    "path": "/baseParameters/movementSettings/flySpeed",
+    "value": 17
+  }
+]
