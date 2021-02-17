@@ -5,7 +5,7 @@
     "rules" : [
     ],
 
-    "anchor" : [ "mossycaverns_open1", "mossycaverns_open2", "mossycaverns_tunnel", "mossycaverns_tunnelBackSlope", "mossycaverns_tunnelForwardSlope", "mossycaverns_tunnelForwardSlope2", "mossycaverns_tunnelForwardSlope3", "mossycaverns_tunnelWeakBackSlope", "mossycaverns_tunnelWeakForwardSlope" ],
+    "anchor" : [ "mossycaverns_open1", "mossycaverns_open2", "mossycaverns_tunnel1", "mossycaverns_tunnel2", "mossycaverns_tunnelBackSlope", "mossycaverns_tunnelForwardSlope1", "mossycaverns_tunnelForwardSlope2", "mossycaverns_tunnelForwardSlope3", "mossycaverns_tunnelWeakBackSlope", "mossycaverns_tunnelWeakForwardSlope" ],
 
     "gravity" : 80,
     "maxRadius" : 1000000,
@@ -29,11 +29,18 @@
       "def" : [ "tmx", "mossycaverns_open2.json" ]
     },
     {
-      "name" : "mossycaverns_tunnel",
+      "name" : "mossycaverns_tunnel1",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "mossycaverns_tunnel.json" ]
+      "def" : [ "tmx", "mossycaverns_tunnel1.json" ]
+    },
+    {
+      "name" : "mossycaverns_tunnel2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "mossycaverns_tunnel2.json" ]
     },
     {
       "name" : "mossycaverns_tunnelBackSlope",
@@ -43,11 +50,11 @@
       "def" : [ "tmx", "mossycaverns_tunnelBackSlope.json" ]
     },
     {
-      "name" : "mossycaverns_tunnelForwardSlope",
+      "name" : "mossycaverns_tunnelForwardSlope1",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "mossycaverns_tunnelForwardSlope.json" ]
+      "def" : [ "tmx", "mossycaverns_tunnelForwardSlope1.json" ]
     },
     {
       "name" : "mossycaverns_tunnelForwardSlope2",

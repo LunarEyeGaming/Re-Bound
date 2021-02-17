@@ -1,0 +1,11 @@
+{
+  "rb_updateBiomeHueShift": {
+    "type": "action",
+    "name": "rb_updateBiomeHueShift",
+    "title": "",
+    "properties": {},
+    "category": "rb-animator",
+    "script": "/scripts/actions/rb-animator.lua",
+    "output": {}
+  }
+}

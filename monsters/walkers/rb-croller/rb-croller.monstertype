@@ -8,12 +8,14 @@
 
   "animation" : "rb-croller.animation",
 
-  "dropPools" : [ { "default" : "lilodonTreasure", "bow" : "lilodonHunting" } ],
+  "dropPools" : [ { "default" : "rb-crollerTreasure", "bow" : "rb-crollerHunting" } ],
 
   "baseParameters" : {
     "scripts" : [
       "/monsters/monster.lua"
     ],
+    "initialScriptDelta" : 1,
+    "behaviorUpdateDelta" : 1,
 
     "behavior" : "monster",
     "deathBehavior" : "monster-death",
@@ -21,7 +23,7 @@
     "facingMode" : "transformation",
 
     "behaviorConfig" : {
-      "damageOnTouch" : true,
+      "damageOnTouch" : false,
 
       "targetQueryRange" : 20,
       "targetOnDamage" : true,
@@ -29,6 +31,8 @@
       "keepTargetInRange" : 50,
       "targetOutOfSightTime" : 2.5,
 
+      "spawnActions" : [],
+      
       "foundTargetActions" : [
         {
           "name" : "action-aggrohop",
@@ -42,13 +46,31 @@
       "fleeActions" : [],
 
       "hostileActions" : [
+        {
+          "name" : "rb-action-roll",
+          "cooldown" : 3,
+          "parameters" : {
+            "maximumRange" : 40,
+            "windupTime" : 0.4,
+            
+            "rollTime" : 2.0,
+            "maxRollSpeed" : 100,
+            "maxRotation" : 150,
+            "damageSpeedThreshold" : 10,
+            "wallCrashSound" : "crash",
+            "wallCrashEmitter" : "crash",
+            "wallKnockback" : true,
+
+            "winddownTime" : 0.5
+          }
+        }
       ],
 
       "periodicActions" : [],
 
       "approachActions" : [
         {
-          "name" : "approach-crawl"
+          "name" : "approach-walk"
         }
       ],
 
@@ -84,12 +106,12 @@
     },
 
     "touchDamage" : {
-      "poly" : [ [1.125, 0.43], [0.43, 1.125], [-0.43, 1.125], [-1.125, 0.43], [-1.125, -0.43], [-0.43, -1.125], [0.43, -1.125], [1.125, -0.43] ],
-      "damage" : 11,
+      "poly" : [ [1.375, 0.7], [0.93, 1.125], [-0.93, 1.125], [-1.375, 0.7], [-1.375, -0.7], [-0.93, -1.125], [0.93, -1.125], [1.375, -0.7] ],
+      "damage" : 50,
 
       "teamType" : "enemy",
       "damageSourceKind" : "slash",
-      "knockback" : 20,
+      "knockback" : 30,
       "statusEffects" : [ ]
     },
 
@@ -97,11 +119,19 @@
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [1.125, 0.43], [0.43, 1.125], [-0.43, 1.125], [-1.125, 0.43], [-1.125, -0.43], [-0.43, -1.125], [0.43, -1.125], [1.125, -0.43] ],
+      "collisionPoly" : [ [1.375, 0.7], [0.93, 1.125], [-0.93, 1.125], [-1.375, 0.7], [-1.375, -0.7], [-0.93, -1.125], [0.93, -1.125], [1.375, -0.7] ],
 
       "mass" : 1.0,
-      "walkSpeed" : 5,
-      "runSpeed" : 7
+      "walkSpeed" : 2,
+      "runSpeed" : 7,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 45.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0
+      }
     },
 
     "bodyMaterialKind" : "stone",
@@ -138,7 +168,7 @@
           "baseValue" : 60
         },
         "protection" : {
-          "baseValue" : 0.0
+          "baseValue" : 10
         },
         "healthRegen" : {
           "baseValue" : 0.0
@@ -147,7 +177,7 @@
           "baseValue" : 1.0
         },
         "physicalResistance" : {
-          "baseValue" : 0.0
+          "baseValue" : 0.5
         },
         "fireResistance" : {
           "baseValue" : 0.0

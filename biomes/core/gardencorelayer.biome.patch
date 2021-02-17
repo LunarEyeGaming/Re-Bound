@@ -1,0 +1,122 @@
+[
+  {
+    "op": "replace",
+    "path": "/musicTrack/day/tracks/0",
+    "value": "/music/lava-exploration1.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/musicTrack/day/tracks/1",
+    "value": "/music/lava-exploration2.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/musicTrack/day/tracks/2",
+    "value": "/music/forsaken-grotto.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/musicTrack/day/tracks/3",
+    "value": "/music/Nomads.ogg"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/4"
+  },
+  {
+    "op": "replace",
+    "path": "/musicTrack/night/tracks/0",
+    "value": "/music/lava-exploration1.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/musicTrack/night/tracks/1",
+    "value": "/music/lava-exploration2.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/musicTrack/night/tracks/2",
+    "value": "/music/forsaken-grotto.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/musicTrack/night/tracks/3",
+    "value": "/music/Nomads.ogg"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/4"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/4"
+  }
+]

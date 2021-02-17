@@ -1,0 +1,19 @@
+{
+  "rb-crollerHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.000, "item" : "rb-stoneshell"}
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "rb-barkbatHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.000, "item" : "rb-barkbatshell"}
+      ],
+      "allowDuplication" : false
+    } ]
+  ]
+}

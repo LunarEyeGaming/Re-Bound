@@ -1,0 +1,16 @@
+{
+  "rb_materialHueShift": {
+    "type": "action",
+    "name": "rb_materialHueShift",
+    "title": "",
+    "properties": {
+      "position": {"type": "position", "value": null},
+      "layer": {"type": "string", "value": "foreground"}
+    },
+    "category": "rb-world",
+    "script": "/scripts/actions/rb-world.lua",
+    "output": {
+      "hueShift": {"type": "number", "key": null}
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "rb-barkbatshell",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "rb-barkbatshell.png",
+  "description" : "A wood-like material harvested from a Bark Bat. Can be used for crafting.",
+  "shortdescription" : "Bark Bat Shell",
+  "itemTags" : [ "reagent" ]
+}

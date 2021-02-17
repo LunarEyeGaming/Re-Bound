@@ -1,7 +1,7 @@
 {
   "frameGrid" : {
     "size" : [32, 32],
-    "dimensions" : [5, 6],
+    "dimensions" : [5, 7],
 
     "names" : [
       [ "idle.1" ],
@@ -9,11 +9,13 @@
       [ "graze.1" ],
       [ "grazeloop.1", "grazeloop.2" ],
       [ "rollwindup.1", "rollwindup.2", "roll.1" ],
+      [ "jump.1", "fall.1" ],
       [ "hurt.1" ]
-    ],
-    
-    "aliases" : {
-      "grazeend.1" : "graze.1"
-    }
+    ]
+  }, 
+  "aliases" : {
+    "grazeend.1" : "graze.1",
+    "rollwinddown.1" : "rollwindup.2",
+    "rollwinddown.2" : "rollwindup.1"
   }
 }

@@ -5,10 +5,7 @@
         "priority" : 0,
         "default" : "idle",
         "states" : {
-          "idle" : {
-            "frames" : 1,
-            "cycle" : 1
-          },
+          "idle" : {},
           "walk" : {
             "frames" : 5,
             "cycle" : 0.5,
@@ -30,7 +27,22 @@
             "cycle" : 0.1,
             "mode" : "transition",
             "transition" : "idle"
-          }
+          },
+          "rollwindup" : {
+            "frames" : 2,
+            "cycle" : 0.2
+          },
+          "roll" : {
+            "properties" : {
+              "persistentSound" : "/sfx/npc/monsters/croller_roll_loop.ogg"
+            }
+          },
+          "rollwinddown" : {
+            "frames" : 2,
+            "cycle" : 0.2
+          },
+          "jump" : {},
+          "fall" : {}
         }
       },
       "damage" : {
@@ -99,6 +111,31 @@
               "properties" : {
                 "image" : "<partImage>:grazeend.<frame>"
               }
+            },
+            "rollwindup" : {
+              "properties" : {
+                "image" : "<partImage>:rollwindup.<frame>"
+              }
+            },
+            "roll" : {
+              "properties" : {
+                "image" : "<partImage>:roll.<frame>"
+              }
+            },
+            "rollwinddown" : {
+              "properties" : {
+                "image" : "<partImage>:rollwinddown.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:jump.<frame>"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:fall.<frame>"
+              }
             }
           },
           "damage" : {
@@ -130,14 +167,8 @@
     "deathPoof" : {
       "particles" : [
         { "particle" : "monstersplosion" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
-        { "particle" : "deathember" },
+        { "count" : 8, "particle" : "deathember" },
+        { "count" : 5, "particle" : "greystoneshard" },
         { "particle" : "deathfizz1left" },
         { "particle" : "deathfizz1right" },
         { "particle" : "deathfizz2left" },
@@ -172,11 +203,19 @@
       "particles" : [
         { "particle" : "monsterlevelup" }
       ]
+    },
+    "crash" : {
+      "offsetRegion" : [1, 1, 1, 0],
+      "particles" : [
+        { "count" : 10, "particle" : "greystoneshard" },
+        { "count" : 10, "particle" : "rocketbarrelpuff" }
+      ]
     }
   },
 
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ],
+    "crash" : [ "/sfx/gun/tank_shot.ogg" ]
   }
 }

@@ -1,0 +1,10 @@
+{
+  "itemName" : "rb-stoneshell",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "rb-stoneshell.png",
+  "description" : "A fragment of a rocky shell. Can be used for crafting.",
+  "shortdescription" : "Stone Shell",
+  "itemTags" : [ "reagent" ]
+}

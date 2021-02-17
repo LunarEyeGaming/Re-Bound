@@ -1,5 +1,5 @@
 {
-  "name" : "rb-mossycaverns",
+  "name" : "rb-mossycaverns3",
   "friendlyName" : "Mossy Caverns",
 
   "spawnProfile" : {
@@ -19,11 +19,11 @@
       }
     ],
     "monsterParameters" : {
-      "colors" : "rb-mossycaverns"
+      "colors" : "rb-mossycaverns3"
     }
   },
 
-  "hueShiftOptions" : [-60],
+  "hueShiftOptions" : [0],
 
   "parallax" : "/parallax/underground/rb-lushcaverns.parallax",
 

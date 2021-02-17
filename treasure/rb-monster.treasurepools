@@ -1,0 +1,29 @@
+{
+  "rb-crollerTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.800, "pool" : "noMeatMonsterTreasure"},
+        {"weight" : 0.200, "item" : "rb-stoneshell"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "rb-barkbatTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.800, "pool" : "flyingMonsterTreasure"},
+        {"weight" : 0.200, "item" : "rb-barkbatshell"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}

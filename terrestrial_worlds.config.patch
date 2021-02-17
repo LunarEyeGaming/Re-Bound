@@ -28,7 +28,7 @@
     "value": {
       "caveLiquid": ["water"],
       "biome": [
-        [0, ["rb-mossycaverns"] ]
+        [1, ["rb-mossycaverns", "rb-mossycaverns2", "rb-mossycaverns3", "rb-mossycaverns4", "rb-mossycaverns5", "rb-mossycaverns6"] ]
       ]
     }
   },

@@ -8,7 +8,7 @@
 
   "animation" : "rb-barkbat.animation",
 
-  "dropPools" : [ { "default" : "agrobatTreasure", "bow" : "agrobatHunting" } ],
+  "dropPools" : [ { "default" : "rb-barkbatTreasure", "bow" : "rb-barkbatHunting" } ],
 
   "baseParameters" : {
     "scripts" : [
@@ -143,7 +143,7 @@
       "flySpeed" : 15
     },
 
-    "bodyMaterialKind" : "organic",
+    "bodyMaterialKind" : "wooden",
 
     "knockoutTime" : 0.3,
     "knockoutAnimationStates" : {
@@ -154,7 +154,7 @@
 
     "statusSettings" : {
       "statusProperties" : {
-        "targetMaterialKind" : "organic"
+        "targetMaterialKind" : "wooden"
       },
 
       "appliesEnvironmentStatusEffects" : false,
