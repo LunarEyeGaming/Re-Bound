@@ -23,7 +23,7 @@
     "op": "add",
     "path": "/baseParameters/statusSettings/stats/grit",
     "value": {
-      "baseValue": 0.25
+      "baseValue": 0.3
     }
   },
   {

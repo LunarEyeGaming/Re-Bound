@@ -101,19 +101,6 @@
         ]
       },
       {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:hazardUndergroundTop",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.20, "icestalagmite1" ], [0.20, "icestalagmite2" ], [0.20, "icestalagmite3" ], [0.20, "icestalagmite4" ] ]
-          }
-        ]
-      },
-      {
         "mode" : "ceiling",
         "priority" : 1.0,
         "variants" : 1,
@@ -122,7 +109,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "icestalactite1" ], [0.20, "icestalactite2" ], [0.20, "icestalactite3" ], [0.20, "icestalactite4" ] ]
+            "pool" : [ [1, "rb-waterpod" ] ]
           }
         ]
       },

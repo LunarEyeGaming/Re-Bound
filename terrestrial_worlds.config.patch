@@ -29,6 +29,17 @@
       "caveLiquid": ["water"],
       "biome": [
         [1, ["rb-mossycaverns", "rb-mossycaverns2", "rb-mossycaverns3", "rb-mossycaverns4", "rb-mossycaverns5", "rb-mossycaverns6"] ]
+      ],
+      "subRegion" : ["rb-toxicmossycaverns"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/rb-toxicmossycaverns",
+    "value": {
+      "caveLiquid": ["poison"],
+      "biome": [
+        [1, ["rb-toxicmossycaverns", "rb-toxicmossycaverns2", "rb-toxicmossycaverns3", "rb-toxicmossycaverns4", "rb-toxicmossycaverns5", "rb-toxicmossycaverns6"] ]
       ]
     }
   },

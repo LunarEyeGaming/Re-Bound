@@ -1,0 +1,41 @@
+{
+  "objectName" : "rb-waterpod",
+  "colonyTags" : [ ],
+  "rarity" : "Common",
+  "category" : "breakable",
+  "price" : 0,
+  "description" : "A large pod full of water. Hitting it will make it pop.",
+  "shortdescription" : "Giant Water Pod",
+  "race" : "generic",
+  "breakDropOptions" : [],
+
+  "apexDescription" : "<todo>.",
+  "avianDescription" : "<todo>.",
+  "floranDescription" : "<todo>.",
+  "glitchDescription" : "<todo>.",
+  "humanDescription" : "<todo>.",
+  "hylotlDescription" : "<todo>.",
+  "novakidDescription" : "<todo>.",
+
+  "inventoryIcon" : "waterpodicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "waterpod.png:<color>",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "smashable" : true,
+  "smashOnBreak" : false,
+  "smashSounds" : [ ],
+  "smashDropPool" : "empty",
+  
+  "scripts" : [
+    "/objects/scripts/explodingsmashable.lua"
+  ],
+  "explosionProjectile" : "rb-waterpod",
+  "explosionOffset" : [0, 0]
+}

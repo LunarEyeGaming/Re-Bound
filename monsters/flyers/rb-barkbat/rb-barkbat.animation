@@ -18,7 +18,7 @@
             "frames" : 4,
             "cycle" : 0.4,
             "properties" : {
-              "immediateSound" : "/sfx/npc/quadruped/bugthinghead_attack2.ogg"
+              "immediateSound" : "/sfx/npc/monsters/barkbat_squeak.ogg"
             }
           },
           "swoop" : {

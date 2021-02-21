@@ -19,5 +19,12 @@
     "value": [
       [0.5, [ [ "coal", 1.00 ], [ "copper", 0.5 ], [ "silver", 0.2 ], [ "rb-tin", 0.6 ] ] ]
     ]
+  },
+  {
+    "op": "add",
+    "path": "/rb-toxicmossycaverns",
+    "value": [
+      [0.5, [ [ "coal", 0.70 ], [ "copper", 0.7 ], [ "silver", 0.3 ], [ "rb-tin", 0.8 ] ] ]
+    ]
   }
 ]

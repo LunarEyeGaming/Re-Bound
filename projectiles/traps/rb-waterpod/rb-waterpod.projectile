@@ -1,0 +1,25 @@
+{
+  "projectileName" : "rb-waterpod",
+  "physics" : "highgravgrenade",
+  "bounces" : 0,
+  "image" : "waterpod.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "periodicActions" : [ ],
+  "actionOnReap" : [
+    {
+      "action" : "liquid",
+      "liquid" : "water",
+      "quantity" : 15
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/waterballoon1.ogg", "/sfx/projectiles/waterballoon2.ogg", "/sfx/projectiles/waterballoon3.ogg", "/sfx/projectiles/waterballoon4.ogg", "/sfx/projectiles/waterballoon5.ogg", "/sfx/projectiles/waterballoon6.ogg", "/sfx/projectiles/waterballoon7.ogg" ]
+    }
+  ],
+  "power" : 0,
+  "piercing" : true,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ]
+}

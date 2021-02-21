@@ -1,0 +1,26 @@
+{
+  "projectileName" : "rb-poisonpod",
+  "physics" : "highgravgrenade",
+  "bounces" : 0,
+  "image" : "poisonpod.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "periodicActions" : [ ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/poisonexplosionknockback.config"
+    },
+    {
+      "action" : "liquid",
+      "liquid" : "poison",
+      "quantity" : 15
+    }
+  ],
+  "power" : 25,
+  "piercing" : true,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "damageTeam" : {"type" : "indiscriminate"}
+}

@@ -1,0 +1,89 @@
+{
+  "metadata" : {
+    "name" : "rb-toxicmossycavernsmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "toxicmossycaverns_open1", "toxicmossycaverns_open2", "toxicmossycaverns_tunnel1", "toxicmossycaverns_tunnel2", "toxicmossycaverns_tunnelBackSlope", "toxicmossycaverns_tunnelForwardSlope1", "toxicmossycaverns_tunnelForwardSlope2", "toxicmossycaverns_tunnelForwardSlope3", "toxicmossycaverns_tunnelWeakBackSlope", "toxicmossycaverns_tunnelWeakForwardSlope" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "toxicmossycaverns_open1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "toxicmossycaverns_open1.json" ]
+    },
+    {
+      "name" : "toxicmossycaverns_open2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "toxicmossycaverns_open2.json" ]
+    },
+    {
+      "name" : "toxicmossycaverns_tunnel1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "toxicmossycaverns_tunnel1.json" ]
+    },
+    {
+      "name" : "toxicmossycaverns_tunnel2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "toxicmossycaverns_tunnel2.json" ]
+    },
+    {
+      "name" : "toxicmossycaverns_tunnelBackSlope",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "toxicmossycaverns_tunnelBackSlope.json" ]
+    },
+    {
+      "name" : "toxicmossycaverns_tunnelForwardSlope1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "toxicmossycaverns_tunnelForwardSlope1.json" ]
+    },
+    {
+      "name" : "toxicmossycaverns_tunnelForwardSlope2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "toxicmossycaverns_tunnelForwardSlope2.json" ]
+    },
+    {
+      "name" : "toxicmossycaverns_tunnelForwardSlope3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "toxicmossycaverns_tunnelForwardSlope3.json" ]
+    },
+    {
+      "name" : "toxicmossycaverns_tunnelWeakBackSlope",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "toxicmossycaverns_tunnelWeakBackSlope.json" ]
+    },
+    {
+      "name" : "toxicmossycaverns_tunnelWeakForwardSlope",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "toxicmossycaverns_tunnelWeakForwardSlope.json" ]
+    }
+  ]
+}
+  

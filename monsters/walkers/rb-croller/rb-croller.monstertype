@@ -1,7 +1,7 @@
 {
   "type" : "rb-croller",
   "shortdescription" : "Croller",
-  "description" : "<todo>.",
+  "description" : "A large, crab-like creature that rolls into anything that enters its territory.",
 
   "categories" : [ "rb-croller" ],
   "parts" : [ "body" ],
@@ -81,7 +81,7 @@
           }
         },
         {
-          "name" : "approach-crawl"
+          "name" : "approach-walk"
         }
       ],
 
@@ -220,9 +220,9 @@
 
     "mouthOffset" : [0, 0],
     "feetOffset" : [0, -8],
-    "capturable" : false
-    //"captureHealthFraction" : 0.5,
-    //"nametagColor" : [64, 200, 255],
+    "capturable" : true,
+    "captureHealthFraction" : 0.5,
+    "nametagColor" : [64, 200, 255]
     //"captureCollectables" : { "monsters" : "lilodon" }
   }
 }

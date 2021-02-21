@@ -79,6 +79,17 @@
                     "direction": "targetDirection",
                     "yDirection": "targetYDir"
                   }
+                },
+                {
+                  "title": "entityPosition",
+                  "type": "action",
+                  "name": "entityPosition",
+                  "parameters": {
+                    "entity": {"key": "target"}
+                  },
+                  "output": {
+                    "position": "targetPos"
+                  }
                 }
               ]
             }
@@ -189,6 +200,20 @@
                               "run": {"key": "<run>"}
                             }
                           }
+                          /*{
+                            "title": "moveToPosition",
+                            "type": "action",
+                            "name": "moveToPosition",
+                            "parameters": {
+                              "avoidLiquid": {"value": false},
+                              "groundPosition": {"value": true},
+                              "position": {"key": "targetPos"},
+                              "run": {"value": true}
+                            }
+                            "output": {
+                              "pathfinding": "meleePathing"
+                            }
+                          }*/
                         ]
                       }
                     ]

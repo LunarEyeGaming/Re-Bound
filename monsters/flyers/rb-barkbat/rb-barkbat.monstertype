@@ -1,7 +1,7 @@
 {
   "type" : "rb-barkbat",
   "shortdescription" : "Bark Bat",
-  "description" : "<todo>.",
+  "description" : "Originally a creature that hid itself on the trees, it is now forced to fly around in search of its next meal.",
 
   "categories" : [ "rb-barkbat" ],
   "parts" : [ "body" ],
@@ -189,7 +189,7 @@
           "baseValue" : 0.0
         },
         "fireResistance" : {
-          "baseValue" : 0.0
+          "baseValue" : -0.5
         },
         "fireStatusImmunity" : {
           "baseValue" : 0.0
@@ -201,7 +201,7 @@
           "baseValue" : 0.0
         },
         "electricResistance" : {
-          "baseValue" : -0.5
+          "baseValue" : 0.0
         },
         "electricStatusImmunity" : {
           "baseValue" : 0.0
