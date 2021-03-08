@@ -1,0 +1,15 @@
+{
+  "projectileName" : "rb-overcast",
+  "image" : "overcast.png",
+  "animationCycle" : 120,
+  "frameNumber" : 1,
+  "physics" : "illusion",
+  "timeToLive" : 120,
+  "renderLayer" : "BackgroundTile-10",
+  "flippable" : true,
+  "speed" : 1,
+
+  "onlyHitTerrain" : true,
+  "power" : 0.0,
+  "damageKind" : "default"
+}

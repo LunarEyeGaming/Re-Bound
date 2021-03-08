@@ -1,0 +1,108 @@
+[
+  {
+    "op": "add",
+    "path": "/garden2",
+    "value": [
+      [0.05, "rain"],
+      [0.025, "storm"],
+      [0.0125, "rb-glowingrainred"],
+      [0.0625, "drizzle"],
+      [0.85, "clear"]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/garden3",
+    "value": [
+      [0.05, "rain"],
+      [0.025, "storm"],
+      [0.0125, "rb-glowingrainblue"],
+      [0.0625, "drizzle"],
+      [0.85, "clear"]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/gardenWindNoGlowingRain",
+    "value": [
+      [0.05, "rain"],
+      [0.025, "storm"],
+      [0.15, "rb-windlow"],
+      [0.1, "rb-windmedium"],
+      [0.05, "rb-windhigh"],
+      [0.0625, "drizzle"],
+      [0.5625, "clear"]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/gardenWind",
+    "value": [
+      [0.05, "rain"],
+      [0.025, "storm"],
+      [0.0125, "glowingrain"],
+      [0.15, "rb-windlow"],
+      [0.1, "rb-windmedium"],
+      [0.05, "rb-windhigh"],
+      [0.0625, "drizzle"],
+      [0.55, "clear"]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/gardenWind2",
+    "value": [
+      [0.05, "rain"],
+      [0.025, "storm"],
+      [0.0125, "rb-glowingrainred"],
+      [0.15, "rb-windlow"],
+      [0.1, "rb-windmedium"],
+      [0.05, "rb-windhigh"],
+      [0.0625, "drizzle"],
+      [0.55, "clear"]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/gardenWind3",
+    "value": [
+      [0.05, "rain"],
+      [0.025, "storm"],
+      [0.0125, "rb-glowingrainblue"],
+      [0.15, "rb-windlow"],
+      [0.1, "rb-windmedium"],
+      [0.05, "rb-windhigh"],
+      [0.0625, "drizzle"],
+      [0.55, "clear"]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/gardenAllGlowingRain",
+    "value": [
+      [0.05, "rain"],
+      [0.025, "storm"],
+      [0.0125, "glowingrain"],
+      [0.0125, "rb-glowingrainred"],
+      [0.0125, "rb-glowingrainblue"],
+      [0.0625, "drizzle"],
+      [0.825, "clear"]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/gardenAll",
+    "value": [
+      [0.05, "rain"],
+      [0.025, "storm"],
+      [0.0125, "glowingrain"],
+      [0.0125, "rb-glowingrainred"],
+      [0.0125, "rb-glowingrainblue"],
+      [0.15, "rb-windlow"],
+      [0.1, "rb-windmedium"],
+      [0.05, "rb-windhigh"],
+      [0.0625, "drizzle"],
+      [0.525, "clear"]
+    ]
+  }
+]

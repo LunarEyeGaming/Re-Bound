@@ -45,64 +45,64 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":7590,
+                 "gid":8794,
                  "height":16,
-                 "id":786,
+                 "id":795,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
-                 "x":160,
-                 "y":216
+                 "width":16,
+                 "x":240,
+                 "y":200
                 }, 
                 {
-                 "gid":7590,
+                 "gid":8794,
                  "height":16,
-                 "id":787,
+                 "id":796,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
-                 "x":296,
-                 "y":216
+                 "width":16,
+                 "x":352,
+                 "y":192
                 }, 
                 {
-                 "gid":7590,
+                 "gid":8794,
                  "height":16,
-                 "id":788,
+                 "id":798,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
-                 "x":376,
-                 "y":216
+                 "width":16,
+                 "x":136,
+                 "y":192
                 }, 
                 {
-                 "gid":7590,
+                 "gid":8794,
                  "height":16,
-                 "id":792,
+                 "id":799,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
-                 "x":200,
-                 "y":224
+                 "width":16,
+                 "x":328,
+                 "y":176
                 }, 
                 {
-                 "gid":7590,
+                 "gid":8794,
                  "height":16,
-                 "id":793,
+                 "id":800,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
-                 "x":112,
-                 "y":224
+                 "width":16,
+                 "x":216,
+                 "y":192
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -245,7 +245,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":794,
+ "nextobjectid":801,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",
@@ -386,6 +386,10 @@
         {
          "firstgid":8692,
          "source":"..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/huge-objects.json"
+        }, 
+        {
+         "firstgid":8793,
+         "source":"..\/..\/..\/..\/tilesets\/objects\/rb-objects-mossycaverns.json"
         }],
  "tilewidth":8,
  "type":"map",

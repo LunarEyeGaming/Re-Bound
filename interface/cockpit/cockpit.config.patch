@@ -1,0 +1,34 @@
+[
+  {
+    "op" : "add",
+    "path" : "/displayOres/rb-tin",
+    "value" : {
+      "displayName" : "Tin (Re-Bound)",
+      "icon" : "/items/generic/crafting/tinore.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/rb-glowingrainred",
+    "value" : {
+      "displayName" : "Red Luminous Rain",
+      "icon" : "/interface/cockpit/weather/rb-glowingrainred.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/rb-glowingrainblue",
+    "value" : {
+      "displayName" : "Blue Luminous Rain",
+      "icon" : "/interface/cockpit/weather/rb-glowingrainblue.png"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/displayWeathers/rb-windlow",
+    "value" : {
+      "displayName" : "Wind (Re-Bound)",
+      "icon" : "/interface/cockpit/weather/windstorm.png"
+    }
+  }
+]

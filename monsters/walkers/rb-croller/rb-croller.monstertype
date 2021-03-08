@@ -94,12 +94,13 @@
           }
         },
         {
-          "name" : "action-animate",
+          "name" : "rb-action-animatefallback",
           "cooldown" : [20, 25],
           "parameters" : {
             "stateType" : "body",
             "state" : "graze",
-            "animationTime" : 1.5
+            "fallbackState" : "grazeend",
+            "animationTimer" : 1.5
           }
         }
       ]

@@ -17,7 +17,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJztmNFuwzAIRb3n\/f+Xpn6fosoSQ2AuGMf2uiuhtGkS+wQM1KX8K6oraCcpyngid5tnVT4j9hJsV9F51+JjlThP4vbwIqy7s9fym1ljj7A223GdW2s4yrhrfrPiuJZxzp24pfk0f2f4dDfeW1JMN7\/yI8KK5MGVqkXOX9QoY\/uusSK5P0vSmJa06yVWzh1hzeKVfIM+v13f06voTGh9y2KWxqbjZonHuYcvixfNFVnqxSzCPdqDWeN64np0XJQ1whsZbxazx68R5ijrKubR\/xY9FmncXl0ZFVKHZvIijFnMWr728CLjo7xaj5TlX4T1Cd4nWOk4l3BcxSv1+6Py5GWE15rTyLr1MqFrZ4TVmhv6PqN+7TFl7Glyo9eP8Gb71ruX62WN8Gblpl7+k37j7yDCupIXZY7k45dyn5c5I09pQn3L84aUP611YPGO5vuIJF9TRomT1kcvryfPz+AtRd4TkXrMXgxL5yR5WLVnzJDESo9I\/6kpo7bNEuJ7j39vZdS2p4XsYfaE8mbv3Y2Kzwvdd7J4kedV5fNsab621GPt9Qj0Nz6PJxTlvaXFMsJqWbs+u+ZpudrLq9U2D2OvrmTWAm++4rzS\/VqdjzBbrGje6TFH79NshFXj5mvGWw8iNRNlpXP6\/npbNc6htV7LgbOE+vgiXNQqO38V27cn82rvwOPfJ\/uaGby79uhN2bwW80rWUp7lXcnZ1GPk8z2d9RbKanHvHMNUXlaPrcrDlrJZtR5tJ2XxWv3obsripHHM++SdYrspg9d6BycowqrtuZ0qT1\/6F3ipPomV6xMYV+kHjv8eeA==",
+         "data":"eJztmN1uwyAMhdn13v9JU+6nqELyLBsfG\/OTdUdCadMk8MVw7FLKv6K6gu1JijI+kbuNsyqfkfYS2qmi467FxypxPonbw4uwns5ey29mjT3C2tqJ69xaw1HGU\/3Nmse1jHOexC2Np8U7I6an8d6S5nSLKz8irIgP7lQtsn\/RRhnbd40V8f4sSX1a0q6XWDl3hDWLV4oN+vx2fU+vojOh+S2LWeqb9pslPs89fFm8qFdkqTdnEe7RGszq1zOvR\/tFWSO8kf5mMXviGmGOsu5iHv1v0WOR+u3llVEheWgmL8KYxaz5tYcX6R\/l1WqkrPgirCt4V7DSfi7huItXqvdH5fFlhNca08i69TKha2eE1Rob+j6jce0xZexp8kavH+HNjq13L9fLGuHN8qae\/0m\/8XcQYd3JizJH\/Pil3OdlzvApTWhsuW9I\/mmtA4t31O8jkmJNGSVOmh+9vB6fn8FbirwnItWYvTksnZPkYdWeMUMSKz0i9aemjNw2S0jsPfG9lZHbVgvZw+wJ5c3euxsVHxe672Txep+3UlqsLfVYezUC\/Y2PY4WivLe0uYywWq1dn53zNK\/28mq5zcPYyyuZucDrV5xXul\/L8xFmizXiE9E8YtWlGawaN18z3nwQ8VKUlY7p++vdqnEOzfWaB84SGuOLcNFW2fmr2LF9Mq\/2DjzxXZnjZ\/CeWqM3ZfNazDtZS1nLu5OzqcfIx\/t01lsoq8V98hym8rJ62i4ftpTNqtVoJymL16pHT1MWJ53HvE4+aW43ZfBa7+AJirBqe25Placu\/Qu8VJ\/EyvUJjLv0Ay91HI4=",
          "encoding":"base64",
          "height":60,
          "name":"front",
@@ -55,6 +55,42 @@
                  "width":16,
                  "x":240,
                  "y":192
+                }, 
+                {
+                 "gid":8794,
+                 "height":16,
+                 "id":779,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":256,
+                 "y":256
+                }, 
+                {
+                 "gid":8794,
+                 "height":16,
+                 "id":782,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":144,
+                 "y":72
+                }, 
+                {
+                 "gid":8794,
+                 "height":16,
+                 "id":784,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":304,
+                 "y":264
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -197,7 +233,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":779,
+ "nextobjectid":785,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",
@@ -338,6 +374,10 @@
         {
          "firstgid":8692,
          "source":"..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/huge-objects.json"
+        }, 
+        {
+         "firstgid":8793,
+         "source":"..\/..\/..\/..\/tilesets\/objects\/rb-objects-mossycaverns.json"
         }],
  "tilewidth":8,
  "type":"map",

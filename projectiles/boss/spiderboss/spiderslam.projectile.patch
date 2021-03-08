@@ -1,0 +1,52 @@
+[
+  {
+    "op": "add",
+    "path": "/statusEffects",
+    "value": [
+      {
+        "effect": "paralysis",
+        "duration": 1
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/knockback",
+    "value": 200
+  },
+  {
+    "op": "add",
+    "path": "/actionOnReap",
+    "value": [
+      {
+        "action": "loop",
+        "count": 1,
+        "body": [
+          {
+            "action": "projectile",
+            "type": "spiderbossshockwavespawner",
+            "direction": [1, 0],
+            "offset": [5, 10]
+          }
+        ]
+      },
+      {
+        "action": "loop",
+        "count": 1,
+        "body": [
+          {
+            "action": "projectile",
+            "type": "spiderbossshockwavespawner",
+            "direction": [-1, 0],
+            "offset": [-5, 10]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/damageKind",
+    "value": "hammer"
+  }
+]

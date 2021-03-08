@@ -235,7 +235,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":795,
+ "nextobjectid":796,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",
@@ -376,6 +376,10 @@
         {
          "firstgid":8692,
          "source":"..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/huge-objects.json"
+        }, 
+        {
+         "firstgid":8793,
+         "source":"..\/..\/..\/..\/tilesets\/objects\/rb-objects-mossycaverns.json"
         }],
  "tilewidth":8,
  "type":"map",

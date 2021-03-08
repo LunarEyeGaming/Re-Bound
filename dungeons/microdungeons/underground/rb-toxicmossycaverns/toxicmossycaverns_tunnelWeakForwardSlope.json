@@ -34,54 +34,18 @@
          "name":"mods",
          "objects":[
                 {
-                 "height":16,
-                 "id":779,
-                 "name":"",
-                 "properties":
-                    {
-                     "mod":"rb-tin"
-                    },
-                 "propertytypes":
-                    {
-                     "mod":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":136,
-                 "y":352
-                }, 
-                {
-                 "height":8,
-                 "id":780,
-                 "name":"",
-                 "properties":
-                    {
-                     "mod":"rb-tin"
-                    },
-                 "propertytypes":
-                    {
-                     "mod":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":216,
-                 "y":328
-                }, 
-                {
                  "height":8,
                  "id":781,
                  "name":"",
                  "properties":
                     {
-                     "mod":"rb-tin"
+                     "mod":"rb-tin",
+                     "surface":"2"
                     },
                  "propertytypes":
                     {
-                     "mod":"string"
+                     "mod":"string",
+                     "surface":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -92,79 +56,213 @@
                 }, 
                 {
                  "height":8,
-                 "id":782,
+                 "id":789,
                  "name":"",
                  "properties":
                     {
-                     "mod":"rb-tin"
+                     "mod":"rb-tin",
+                     "surface":"2"
                     },
                  "propertytypes":
                     {
-                     "mod":"string"
+                     "mod":"string",
+                     "surface":"string"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":24,
-                 "x":264,
+                 "width":8,
+                 "x":232,
                  "y":328
                 }, 
                 {
                  "height":8,
-                 "id":783,
+                 "id":790,
                  "name":"",
                  "properties":
                     {
-                     "mod":"rb-tin"
+                     "mod":"rb-tin",
+                     "surface":"1"
                     },
                  "propertytypes":
                     {
-                     "mod":"string"
+                     "mod":"string",
+                     "surface":"string"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":16,
+                 "x":216,
+                 "y":328
+                }, 
+                {
+                 "height":16,
+                 "id":791,
+                 "name":"",
+                 "properties":
+                    {
+                     "mod":"rb-tin",
+                     "surface":"2"
+                    },
+                 "propertytypes":
+                    {
+                     "mod":"string",
+                     "surface":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":144,
+                 "y":352
+                }, 
+                {
+                 "height":16,
+                 "id":792,
+                 "name":"",
+                 "properties":
+                    {
+                     "mod":"rb-tin",
+                     "surface":"0"
+                    },
+                 "propertytypes":
+                    {
+                     "mod":"string",
+                     "surface":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":136,
+                 "y":352
+                }, 
+                {
+                 "height":16,
+                 "id":793,
+                 "name":"",
+                 "properties":
+                    {
+                     "mod":"rb-tin",
+                     "surface":"2"
+                    },
+                 "propertytypes":
+                    {
+                     "mod":"string",
+                     "surface":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":280,
+                 "y":320
+                }, 
+                {
+                 "height":16,
+                 "id":794,
+                 "name":"",
+                 "properties":
+                    {
+                     "mod":"rb-tin",
+                     "surface":"0"
+                    },
+                 "propertytypes":
+                    {
+                     "mod":"string",
+                     "surface":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
                  "x":272,
                  "y":320
                 }, 
                 {
                  "height":8,
-                 "id":784,
+                 "id":795,
                  "name":"",
                  "properties":
                     {
-                     "mod":"rb-tin"
+                     "mod":"rb-tin",
+                     "surface":"0"
                     },
                  "propertytypes":
                     {
-                     "mod":"string"
+                     "mod":"string",
+                     "surface":"string"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":24,
+                 "width":8,
+                 "x":264,
+                 "y":328
+                }, 
+                {
+                 "height":16,
+                 "id":796,
+                 "name":"",
+                 "properties":
+                    {
+                     "mod":"rb-tin",
+                     "surface":"0"
+                    },
+                 "propertytypes":
+                    {
+                     "mod":"string",
+                     "surface":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
                  "x":360,
                  "y":264
                 }, 
                 {
                  "height":8,
-                 "id":785,
+                 "id":797,
                  "name":"",
                  "properties":
                     {
-                     "mod":"rb-tin"
+                     "mod":"rb-tin",
+                     "surface":"2"
                     },
                  "propertytypes":
                     {
-                     "mod":"string"
+                     "mod":"string",
+                     "surface":"string"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":24,
+                 "width":16,
                  "x":344,
                  "y":272
+                }, 
+                {
+                 "height":8,
+                 "id":798,
+                 "name":"",
+                 "properties":
+                    {
+                     "mod":"rb-tin",
+                     "surface":"1"
+                    },
+                 "propertytypes":
+                    {
+                     "mod":"string",
+                     "surface":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":368,
+                 "y":264
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -176,7 +274,43 @@
          "color":"#ff0000",
          "draworder":"topdown",
          "name":"objects",
-         "objects":[],
+         "objects":[
+                {
+                 "gid":8793,
+                 "height":16,
+                 "id":786,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":144,
+                 "y":232
+                }, 
+                {
+                 "gid":8793,
+                 "height":16,
+                 "id":787,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":192,
+                 "y":208
+                }, 
+                {
+                 "gid":8793,
+                 "height":16,
+                 "id":788,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":96,
+                 "y":248
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -318,7 +452,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":786,
+ "nextobjectid":799,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",
@@ -459,6 +593,10 @@
         {
          "firstgid":8692,
          "source":"..\/..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/huge-objects.json"
+        }, 
+        {
+         "firstgid":8793,
+         "source":"..\/..\/..\/..\/tilesets\/objects\/rb-objects-mossycaverns.json"
         }],
  "tilewidth":8,
  "type":"map",

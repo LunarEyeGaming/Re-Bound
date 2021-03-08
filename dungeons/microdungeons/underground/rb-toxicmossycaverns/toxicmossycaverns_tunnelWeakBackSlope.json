@@ -39,11 +39,13 @@
                  "name":"",
                  "properties":
                     {
-                     "mod":"rb-tin"
+                     "mod":"rb-tin",
+                     "surface":"2"
                     },
                  "propertytypes":
                     {
-                     "mod":"string"
+                     "mod":"string",
+                     "surface":"string"
                     },
                  "rotation":0,
                  "type":"",
@@ -53,41 +55,66 @@
                  "y":272
                 }, 
                 {
-                 "height":8,
-                 "id":785,
-                 "name":"",
-                 "properties":
-                    {
-                     "mod":"rb-tin"
-                    },
-                 "propertytypes":
-                    {
-                     "mod":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":184,
-                 "y":336
-                }, 
-                {
                  "height":16,
                  "id":786,
                  "name":"",
                  "properties":
                     {
-                     "mod":"rb-tin"
+                     "mod":"rb-tin",
+                     "surface":"1"
                     },
                  "propertytypes":
                     {
-                     "mod":"string"
+                     "mod":"string",
+                     "surface":"string"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":24,
                  "x":200,
+                 "y":336
+                }, 
+                {
+                 "height":8,
+                 "id":787,
+                 "name":"",
+                 "properties":
+                    {
+                     "mod":"rb-tin",
+                     "surface":"0"
+                    },
+                 "propertytypes":
+                    {
+                     "mod":"string",
+                     "surface":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":192,
+                 "y":336
+                }, 
+                {
+                 "height":8,
+                 "id":788,
+                 "name":"",
+                 "properties":
+                    {
+                     "mod":"rb-tin",
+                     "surface":"2"
+                    },
+                 "propertytypes":
+                    {
+                     "mod":"string",
+                     "surface":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":184,
                  "y":336
                 }],
          "opacity":1,
@@ -261,7 +288,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":787,
+ "nextobjectid":789,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

@@ -1,0 +1,43 @@
+{
+  "name": "rb-action-animatefallback",
+  "description": "",
+  "scripts": [
+    "/scripts/actions/animator.lua",
+    "/scripts/actions/time.lua"
+  ],
+  "parameters": {
+    "stateType": "body",
+    "state": "idle",
+    "fallbackState": "idle",
+    "animationTimer": 1
+  },
+  "root": {
+    "title": "parallel",
+    "type": "composite",
+    "name": "parallel",
+    "parameters": {
+      "fail": {"value": -1},
+      "success": {"value": 1}
+    },
+    "children": [
+      {
+        "title": "animate",
+        "type": "action",
+        "name": "animate",
+        "parameters": {
+          "fallback": {"value": "<fallbackState>"},
+          "state": {"value": "<state>"},
+          "type": {"value": "<stateType>"}
+        }
+      },
+      {
+        "title": "timer",
+        "type": "action",
+        "name": "timer",
+        "parameters": {
+          "time": {"value": "<animationTimer>"}
+        }
+      }
+    ]
+  }
+}

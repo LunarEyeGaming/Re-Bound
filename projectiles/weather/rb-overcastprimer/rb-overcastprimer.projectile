@@ -1,0 +1,30 @@
+{
+  "projectileName" : "rb-overcastprimer",
+  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "spawnAction" : {
+    "action" : "option",
+    "options" : [
+      {
+        "action" : "projectile",
+        "type" : "rb-overcast",
+        "offsetRange" : [0, 0, 0, 50],
+        "direction" : [1, 0]
+      },
+      {
+        "action" : "projectile",
+        "type" : "rb-overcast",
+        "offsetRange" : [0, 0, 0, 50],
+        "direction" : [-1, 0]
+      }
+    ]
+  },
+
+  "scripts" : [ "/projectiles/weather/rb-overcastprimer/rb-overcastprimer.lua" ],
+  "scriptDelta" : 1,
+
+  "onlyHitTerrain" : true,
+  "power" : 0.0,
+  "damageKind" : "default"
+}

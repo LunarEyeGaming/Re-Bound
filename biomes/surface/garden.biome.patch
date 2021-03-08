@@ -117,5 +117,45 @@
     "op": "replace",
     "path": "/ores",
     "value": "rb-garden"
+  },
+  {
+    "op": "add",
+    "path": "/weather/0/1/-",
+    "value": "/weather.config:garden2"
+  },
+  {
+    "op": "add",
+    "path": "/weather/0/1/-",
+    "value": "/weather.config:garden3"
+  },
+  {
+    "op": "add",
+    "path": "/weather/0/1/-",
+    "value": "/weather.config:gardenWindNoGlowingRain"
+  },
+  {
+    "op": "add",
+    "path": "/weather/0/1/-",
+    "value": "/weather.config:gardenWind"
+  },
+  {
+    "op": "add",
+    "path": "/weather/0/1/-",
+    "value": "/weather.config:gardenWind2"
+  },
+  {
+    "op": "add",
+    "path": "/weather/0/1/-",
+    "value": "/weather.config:gardenWind3"
+  },
+  {
+    "op": "add",
+    "path": "/weather/0/1/-",
+    "value": "/weather.config:gardenAllGlowingRain"
+  },
+  {
+    "op": "add",
+    "path": "/weather/0/1/-",
+    "value": "/weather.config:gardenAll"
   }
 ]

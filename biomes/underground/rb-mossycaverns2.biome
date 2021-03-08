@@ -25,7 +25,7 @@
 
   "hueShiftOptions" : [-18],
 
-  "parallax" : "/parallax/underground/rb-lushcaverns.parallax",
+  "parallax" : "/parallax/underground/rb-mossycaverns.parallax",
 
   "mainBlock" : "grassyrock",
   "subBlocks" : [ "dirt", "plantmatter" ],
