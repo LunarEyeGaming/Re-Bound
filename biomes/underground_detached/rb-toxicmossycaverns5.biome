@@ -140,7 +140,7 @@
         "distribution" : "/biomes/distributions.config:layer1Chests",
 
         "type" : "treasureBox",
-        "treasureBoxSets" : [ "basicChest" ]
+        "treasureBoxSets" : [ "rb-basicCaveChest" ]
       },
       {
         "mode" : "floor",

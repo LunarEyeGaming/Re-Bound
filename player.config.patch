@@ -3,5 +3,29 @@
 
   // VANILLA CRAFTING STATIONS
       // Anvil
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "rb-thornbomb"} }
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "rb-thornbomb"} },
+  
+      // Foraging Table and Medical Table
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "copperpickaxe"} },
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "silverpickaxe"} },
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "goldpickaxe"} },
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "diamondpickaxe"} },
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "poisonbow"} },
+
+  // Movement Parameter Adjustments
+  {
+    "op": "add",
+    "path": "/movementParameters/normalGroundFriction",
+    "value": 55
+  } /*,
+  {
+    "op": "add",
+    "path": "/movementParameters/walkSpeed",
+    "value": 10
+  },
+  {
+    "op": "add",
+    "path": "/movementParameters/runSpeed",
+    "value": 15
+  } */
 ]

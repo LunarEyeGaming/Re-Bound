@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tungstenbow", "count" : 1 },
+    { "item" : "venomsample", "count" : 3 }
+  ],
+  "output" : { "item" : "poisonbow", "count" : 1 },
+  "groups" : [ "craftingfarm", "hunting" ]
+}

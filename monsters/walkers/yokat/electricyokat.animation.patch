@@ -1,0 +1,8 @@
+[
+  // *facepalm*
+  {
+    "op": "add",
+    "path": "/sounds/wallCrash",
+    "value": [ "/sfx/npc/monsters/peblit_drop1.ogg" ]
+  }
+]

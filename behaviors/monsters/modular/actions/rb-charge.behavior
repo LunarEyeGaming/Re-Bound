@@ -1,5 +1,5 @@
 {
-  "name": "rb-action-chargetouchdamage",
+  "name": "rb-action-charge",
   "description": "",
   "scripts": [
     "/scripts/behavior.lua",
@@ -23,6 +23,7 @@
     "wallCrashSound": "crash",
     "wallCrashEmitter": "",
     "aimAtTarget": false,
+    "flippable" : false,
     "inaccuracy": 0,
     "aimDirection": [1, 0],
     "rotateToTarget": false,
@@ -283,6 +284,76 @@
                                         },
                                         "output": {
                                           "result": "rotationAngle"
+                                        }
+                                      },
+                                      {
+                                        "title": "optional",
+                                        "type": "decorator",
+                                        "name": "optional",
+                                        "parameters": {
+                                          "shouldRun": {"key": "<flippable>"}
+                                        },
+                                        "child": {
+                                          "title": "sequence",
+                                          "type": "composite",
+                                          "name": "sequence",
+                                          "parameters": {},
+                                          "children": [
+                                            {
+                                              "title": "breakVector",
+                                              "type": "action",
+                                              "name": "breakVector",
+                                              "parameters": {
+                                                "vector": {"key": "aimDirection"}
+                                              },
+                                              "output": {
+                                                "x": "chargeX"
+                                              }
+                                            },
+                                            {
+                                              "title": "faceDirection",
+                                              "type": "action",
+                                              "name": "faceDirection",
+                                              "parameters": {
+                                                "direction": {"key": "chargeX"}
+                                              }
+                                            },
+                                            {
+                                              "title": "vecMultiply",
+                                              "type": "action",
+                                              "name": "vecMultiply",
+                                              "parameters": {
+                                                "first": {"key": "aimDirection"},
+                                                "second": {"value": ["facingDirection", 1]}
+                                              },
+                                              "output": {
+                                                "vector": "facingVector"
+                                              }
+                                            },
+                                            {
+                                              "title": "vecAngle",
+                                              "type": "action",
+                                              "name": "vecAngle",
+                                              "parameters": {
+                                                "vector": {"key": "facingVector"}
+                                              },
+                                              "output": {
+                                                "angle": "preRotationAngle"
+                                              }
+                                            },
+                                            {
+                                              "title": "add",
+                                              "type": "action",
+                                              "name": "add",
+                                              "parameters": {
+                                                "addend": {"key": "preRotationAngle"},
+                                                "number": {"key": "<rotationOffset>"}
+                                              },
+                                              "output": {
+                                                "result": "rotationAngle"
+                                              }
+                                            }
+                                          ]
                                         }
                                       },
                                       {

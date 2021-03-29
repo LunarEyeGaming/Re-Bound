@@ -1,0 +1,61 @@
+{
+  "rb-basicChestTreasureUnderground" : [
+    [0, {
+      "fill" : [
+        {"pool" : "valuableTreasure"},
+        {"pool" : "maybeWeaponTreasure"}
+      ],
+      "poolRounds" : [
+        [0.1, 1],
+        [0.2, 2],
+        [0.3, 3],
+        [0.3, 4],
+        [0.1, 5]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "pool" : "basicTreasure"}
+      ]
+    }]
+  ],
+
+  "rb-basicChestTreasureUnderground2" : [
+    [0, {
+      "fill" : [
+        {"pool" : "valuableTreasure"},
+        {"pool" : "maybeWeaponTreasure"}
+      ],
+      "poolRounds" : [
+        [0.1, 1],
+        [0.2, 2],
+        [0.3, 3],
+        [0.3, 4],
+        [0.15, 5],
+        [0.05, 6]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "pool" : "basicTreasure"}
+      ]
+    }]
+  ],
+
+  "rb-basicChestTreasureUnderground3" : [
+    [0, {
+      "fill" : [
+        {"pool" : "valuableTreasure"},
+        {"pool" : "maybeWeaponTreasure"}
+      ],
+      "poolRounds" : [
+        [0.1, 1],
+        [0.2, 2],
+        [0.3, 3],
+        [0.3, 4],
+        [0.2, 5],
+        [0.1, 6],
+        [0.05, 7]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "pool" : "basicTreasure"}
+      ]
+    }]
+  ]
+}

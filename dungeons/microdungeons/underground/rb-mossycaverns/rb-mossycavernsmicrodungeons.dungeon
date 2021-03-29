@@ -5,7 +5,7 @@
     "rules" : [
     ],
 
-    "anchor" : [ "mossycaverns_open1", "mossycaverns_open2", "mossycaverns_tunnel1", "mossycaverns_tunnel2", "mossycaverns_tunnelBackSlope", "mossycaverns_tunnelForwardSlope1", "mossycaverns_tunnelForwardSlope2", "mossycaverns_tunnelForwardSlope3", "mossycaverns_tunnelWeakBackSlope", "mossycaverns_tunnelWeakForwardSlope" ],
+    "anchor" : [ "mossycaverns_open1", "mossycaverns_open2", "mossycaverns_tunnel1", "mossycaverns_tunnel2", "mossycaverns_tunnelBackSlope", "mossycaverns_tunnelForwardSlope1", "mossycaverns_tunnelForwardSlope2", "mossycaverns_tunnelWeakBackSlope", "mossycaverns_tunnelWeakForwardSlope" ],
 
     "gravity" : 80,
     "maxRadius" : 1000000,

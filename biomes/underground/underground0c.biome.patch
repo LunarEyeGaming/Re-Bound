@@ -1,0 +1,156 @@
+[
+  {
+    "op": "replace",
+    "path": "/spawnProfile/groups/0/pool/0/1",
+    "value": "agrobat"
+  },
+  {
+    "op": "remove",
+    "path": "/spawnProfile/groups/0/pool/3"
+  },
+  {
+    "op": "remove",
+    "path": "/spawnProfile/groups/0/pool/3"
+  },
+  {
+    "op": "replace",
+    "path": "/subBlocks/1",
+    "value": "wetdirt"
+  },
+  {
+    "op": "replace",
+    "path": "/ores",
+    "value": "rb-underground0c"
+  },
+  {
+    "op": "replace",
+    "path": "/ambientNoises/day/tracks/0",
+    "value": "/sfx/environmental/rb-underground0c.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/ambientNoises/night/tracks/0",
+    "value": "/sfx/environmental/rb-underground0c.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/musicTrack/day/tracks/0",
+    "value": "/music/M54.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/musicTrack/day/tracks/1",
+    "value": "/music/accretion-disc.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/musicTrack/day/tracks/2",
+    "value": "/music/arctic-constellation1.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/musicTrack/day/tracks/3",
+    "value": "/music/arctic-constellation2.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/musicTrack/day/tracks/4",
+    "value": "/music/jupiter.ogg"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/day/tracks/5"
+  },
+  {
+    "op": "replace",
+    "path": "/musicTrack/night/tracks/0",
+    "value": "/music/M54.ogg"
+  },
+  {
+    "op": "add",
+    "path": "/musicTrack/night/tracks/1",
+    "value": "/music/accretion-disc.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/musicTrack/night/tracks/4",
+    "value": "/music/jupiter.ogg"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/5"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack/night/tracks/5"
+  },
+  {
+    "op": "replace",
+    "path": "/undergroundPlaceables/items/6/treasureBoxSets/0",
+    "value": "rb-basicCaveChest"
+  }
+]

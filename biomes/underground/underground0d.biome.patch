@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/ores",
+    "value": "rb-underground0d"
+  },
+  {
+    "op": "replace",
+    "path": "/undergroundPlaceables/items/5/treasureBoxSets/0",
+    "value": "rb-basicCaveChest"
+  }/* ,
+  {
+    "op": "remove",
+    "path": "/ambientNoises"
+  },
+  {
+    "op": "remove",
+    "path": "/musicTrack"
+  }*/
+]

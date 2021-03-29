@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/effectConfig/damage",
+    "value": 7
+  },
+  {
+    "op": "replace",
+    "path": "/scripts/0",
+    "value": "poison.lua"
+  }
+]

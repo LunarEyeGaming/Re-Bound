@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/animatedParts/stateTypes/body/states/invulnerable/properties/immediateSound",
+    "value": "/sfx/npc/monsters/spookit_invulnerable.ogg"
+  },
+  {
+    "op": "replace",
+    "path": "/animatedParts/stateTypes/body/states/invulnerable/properties/persistentSound",
+    "value": "/sfx/npc/monsters/spookit_invulnerable_loop.ogg"
+  }
+]

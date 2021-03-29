@@ -1,0 +1,33 @@
+[
+  {
+    "op": "remove",
+    "path": "/baseParameters/behaviorConfig/damageTakenActions/0"
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/concurrentHostileActions/-",
+    "value": {
+      "name": "action-invulnerable",
+      "cooldown": 5,
+      "parameters": {
+        "windupTime": 0,
+        "windupState": "",
+        "winddownTime": 0,
+        "winddownState": "fly",
+        "invulnerableTime": 5
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/foundTargetActions/-",
+    "value": {
+      "name" : "action-animate",
+      "parameters" : {
+        "stateType" : "body",
+        "state" : "invulnerable",
+        "animationTimer" : 5.0
+      }
+    }
+  }
+]

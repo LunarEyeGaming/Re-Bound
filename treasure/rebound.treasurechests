@@ -1,0 +1,25 @@
+{
+  "rb-basicCaveChest" : [
+    {
+      "containers" : [ "podchest", "woodenchest", "ironchest" ],
+      "treasurePool" : "rb-basicChestTreasureUnderground",
+      "minimumLevel" : 0
+    }
+  ],
+  
+  "rb-basicCaveChest2" : [
+    {
+      "containers" : [ "podchest", "woodenchest", "ironchest" ],
+      "treasurePool" : "rb-basicChestTreasureUnderground2",
+      "minimumLevel" : 0
+    }
+  ],
+  
+  "rb-basicCaveChest3" : [
+    {
+      "containers" : [ "podchest", "woodenchest", "ironchest" ],
+      "treasurePool" : "rb-basicChestTreasureUnderground3",
+      "minimumLevel" : 0
+    }
+  ]
+}

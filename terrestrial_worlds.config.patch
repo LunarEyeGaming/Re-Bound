@@ -8,9 +8,16 @@
   },
   {
     "op": "add",
-    "path": "/planetTypes/garden/layers/shallowunderground",
+    "path": "/planetTypes/garden/layers/underground1",
     "value": {
-      "primaryRegion": ["rb-gardenshallowunderground"]
+      "primaryRegion": ["rb-gardenshallowunderground", "rb-underground0c"]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/garden/layers/underground2",
+    "value": {
+      "primaryRegion": ["rb-gardenmidunderground"]
     }
   },
   {
@@ -19,7 +26,8 @@
     "value": {
       "biome": [
         [0, ["rb-lushcaverns"] ]
-      ]
+      ],
+      "subRegion" : ["rb-swampunderground"]
     }
   },
   {
@@ -47,10 +55,60 @@
     "op": "add",
     "path": "/regionTypes/rb-gardenshallowunderground",
     "value": {
-      "caveLiquid": ["water"],
+      "caveLiquid": [ ],
+      "fgCaveSelector": ["denseCaves"],
       "biome": [
-        [0, ["underground1b"] ]
+        [1, ["underground1b", "rb-genericcave1"] ]
       ]
     }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/rb-underground0c",
+    "value": {
+      "caveLiquid": [ "water" ],
+      "fgCaveSelector": ["denseCaves"],
+      "biome": [
+        [1, ["underground0c"] ]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/rb-gardenmidunderground",
+    "value": {
+      "caveLiquid": [ ],
+      "fgCaveSelector": ["sparseCaves"],
+      "biome": [
+        [1, ["rb-genericcave2", "rb-genericcave3", "rb-genericcave4"] ]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/rb-swampunderground",
+    "value": {
+      "caveLiquid": [ "water" ],
+      "caveLiquidSeedDensityRange" : [1, 3],
+      "fgCaveSelector": ["denseCaves"],
+      "biome": [
+        [1, ["underground0d"] ]
+      ]
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/regionTypes/midnight/blockSelector/0",
+    "value": "remixedCanyonsSurface"
+  },
+  {
+    "op": "replace",
+    "path": "/regionTypes/garden/blockSelector/0",
+    "value": "lowHillsSurface"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/midnight/layers/surface/secondaryRegionSize",
+    "value": [0.3, 0.5]
   }
 ]

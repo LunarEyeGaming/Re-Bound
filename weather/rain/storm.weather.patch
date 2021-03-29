@@ -1,0 +1,17 @@
+[
+  {
+    "op": "replace",
+    "path": "/particles/0/density",
+    "value": 0.1
+  },
+  {
+    "op": "replace",
+    "path": "/particles/1/density",
+    "value": 0.1
+  },
+  {
+    "op": "replace",
+    "path": "/particles/2/density",
+    "value": 0.1
+  }
+]

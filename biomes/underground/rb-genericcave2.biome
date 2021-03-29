@@ -1,61 +1,49 @@
 {
-  "name" : "rb-mossycaverns3",
-  "friendlyName" : "Mossy Caverns",
+  "name" : "rb-genericcave2",
+  "friendlyName" : "Generic Cave 2",
 
   "spawnProfile" : {
     "groups" : [
       {
         "select" : 2,
         "pool" : [
-          [ 1.0, "pulpin" ],
-          [ 1.0, "rb-croller" ]
-        ]
-      },
-      {
-        "select" : 1,
-        "pool" : [
-          [ 1, "frogcritter" ]
+          [ 1.0, "peblit" ],
+          [ 1.0, "crustoise" ]
         ]
       }
-    ],
-    "monsterParameters" : {
-      "colors" : "rb-mossycaverns3"
-    }
+    ]
   },
 
   "hueShiftOptions" : [0],
 
-  "parallax" : "/parallax/underground/rb-mossycaverns.parallax",
+  "parallax" : "/parallax/underground/underground0a.parallax",
 
-  "mainBlock" : "grassyrock",
-  "subBlocks" : [ "dirt", "plantmatter" ],
-  "ores" : "rb-mossycaverns",
+  "mainBlock" : "rock01",
+  "subBlocks" : [ "gravel", "cobblestone" ],
+  "ores" : "depth3",
 
   "ambientNoises" : {
     "day" : {
-      "tracks" : [ "/sfx/environmental/garden_underground.ogg" ]
+      "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/sfx/environmental/garden_underground.ogg" ]
+      "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
     }
   },
 
   "musicTrack" : {
     "day" : {
-      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg" ]
+      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vast-immortal-suns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg" ]
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
     }
   },
 
   "undergroundPlaceables" : {
     
-    "grassMod" : [ "grass" ],
-    "grassModDensity" : 0.7,
-
-    "ceilingGrassMod" : [ "moss" ],
-    "ceilingGrassModDensity" : 0.7,
+    "grassMod" : [ ],
+    "grassModDensity" : 0.0,
     
     "items" : [
       {
@@ -87,16 +75,15 @@
         ]
       },
       {
-        "mode" : "background",
+        "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:undergroundFossils",
+        "distribution" : "/biomes/distributions.config:hazardUndergroundTop",
 
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.15, "dirtyfossil1" ], [0.15, "dirtyfossil2" ], [0.15, "dirtyfossil3" ], [0.15, "dirtyfossil4" ], [0.1, "dirtyfossil5" ], [0.1, "dirtyfossil6" ], [0.1, "dirtyfossil7" ], [0.1, "dirtyfossil8" ] ],
-            "parameters" : {  "materials" : ["dirt", "cobblestone", "bonematerial"]}
+            "pool" : [ [0.20, "groundspike1" ], [0.20, "groundspike2" ], [0.20, "groundspike3" ], [0.20, "groundspike4" ] ]
           }
         ]
       },
@@ -109,20 +96,7 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "rb-waterpod" ] ]
-          }
-        ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:hazardUndergroundCeilingLower",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "drip1" ] ]
+            "pool" : [ [0.20, "ceilingspike1" ], [0.20, "ceilingspike2" ], [0.20, "ceilingspike3" ], [0.20, "ceilingspike4" ] ]
           }
         ]
       },
@@ -133,7 +107,7 @@
         "distribution" : "/biomes/distributions.config:layer1Chests",
 
         "type" : "treasureBox",
-        "treasureBoxSets" : [ "rb-basicCaveChest" ]
+        "treasureBoxSets" : [ "rb-basicCaveChest2" ]
       },
       {
         "mode" : "floor",
@@ -181,15 +155,15 @@
           }
         ]
       },
-      {
+      /*{
         "mode" : "floor",
         "priority" : 900.0,
         "variants" : 1,
         "distribution" : "/biomes/distributions.config:denseSmall",
 
         "type" : "microdungeon",
-        "microdungeons" : [ "rb-mossycavernsmicrodungeons" ]
-      },
+        "microdungeons" : [ "underground1bmicrodungeons" ]
+      },*/
       {
         "mode" : "floor",
         "priority" : 1,
